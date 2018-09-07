@@ -1,0 +1,5 @@
+package com.type;
+
+public enum N1N2MessageTransferCause {
+	ATTEMPTING_TO_REACH_UE,N1_N2_TRANSFER_INITIATED,WAITING_FOR_ASYNCHRONOUS_TRANSFER;
+}

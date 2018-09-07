@@ -1,0 +1,1049 @@
+[2018-09-05 17:33:09,442/CST][main][ERROR]Can not output merged.log4j.properties,because can not write to directory of file file:/D:/Apache/maven-repository/org/apache/servicecomb/foundation-common/1.0.0/foundation-common-1.0.0.jar!/config/base/log4j.properties org.apache.servicecomb.foundation.common.utils.Log4jUtils.outputFile(Log4jUtils.java:103)
+[2018-09-05 17:33:09,489/CST][main][INFO]Found main class "com.Application". org.apache.servicecomb.foundation.common.utils.JvmUtils.findMainClass(JvmUtils.java:62)
+[2018-09-05 17:33:09,591/CST][main][INFO]Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@59a6e353: startup date [Wed Sep 05 17:33:09 CST 2018]; root of context hierarchy org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:583)
+[2018-09-05 17:33:09,734/CST][main][INFO]Loading XML bean definitions from file [D:\组里任务\new\mmmmmmm\N1N2MessageTransferProvider\target\classes\META-INF\spring\provider.bean.xml] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+[2018-09-05 17:33:11,764/CST][main][INFO]Loading XML bean definitions from URL [jar:file:/D:/Apache/maven-repository/org/apache/servicecomb/java-chassis-core/1.0.0/java-chassis-core-1.0.0.jar!/META-INF/spring/cse.bean.xml] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+[2018-09-05 17:33:13,276/CST][main][INFO]Loading XML bean definitions from URL [jar:file:/D:/Apache/maven-repository/org/apache/servicecomb/foundation-config/1.0.0/foundation-config-1.0.0.jar!/META-INF/spring/cse.bean.xml] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+[2018-09-05 17:33:13,292/CST][main][INFO]Loading XML bean definitions from URL [jar:file:/D:/Apache/maven-repository/org/apache/servicecomb/foundation-vertx/1.0.0/foundation-vertx-1.0.0.jar!/META-INF/spring/cse.bean.xml] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+[2018-09-05 17:33:13,307/CST][main][INFO]Loading XML bean definitions from URL [jar:file:/D:/Apache/maven-repository/org/apache/servicecomb/foundation-common/1.0.0/foundation-common-1.0.0.jar!/META-INF/spring/common.bean.xml] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+[2018-09-05 17:33:13,609/CST][main][INFO]Environment received, will get configurations from [org.springframework.core.env.StandardEnvironment@255640288]. org.apache.servicecomb.config.ConfigurationSpringInitializer.setEnvironment(ConfigurationSpringInitializer.java:59)
+[2018-09-05 17:33:13,651/CST][main][WARN]No URLs will be polled as dynamic configuration sources. com.netflix.config.sources.URLConfigurationSource.<init>(URLConfigurationSource.java:121)
+[2018-09-05 17:33:13,651/CST][main][INFO]To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath. com.netflix.config.sources.URLConfigurationSource.<init>(URLConfigurationSource.java:122)
+[2018-09-05 17:33:13,709/CST][main][INFO]create local config: org.apache.servicecomb.config.ConfigUtil.createLocalConfig(ConfigUtil.java:114)
+[2018-09-05 17:33:13,709/CST][main][INFO] jar:file:/D:/Apache/maven-repository/org/apache/servicecomb/java-chassis-core/1.0.0/java-chassis-core-1.0.0.jar!/microservice.yaml. org.apache.servicecomb.config.ConfigUtil.createLocalConfig(ConfigUtil.java:116)
+[2018-09-05 17:33:13,709/CST][main][INFO] file:/D:/%e7%bb%84%e9%87%8c%e4%bb%bb%e5%8a%a1/new/mmmmmmm/N1N2MessageTransferProvider/target/classes/microservice.yaml. org.apache.servicecomb.config.ConfigUtil.createLocalConfig(ConfigUtil.java:116)
+[2018-09-05 17:33:13,745/CST][main][INFO]Found SPI service org.apache.servicecomb.config.spi.ConfigCenterConfigurationSource, count=0. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:76)
+[2018-09-05 17:33:13,746/CST][main][INFO]Can not find SPI service for org.apache.servicecomb.config.spi.ConfigCenterConfigurationSource org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.getTargetService(SPIServiceUtils.java:107)
+[2018-09-05 17:33:13,746/CST][main][INFO]config center SPI service can not find, skip to load configuration from config center org.apache.servicecomb.config.ConfigUtil.createConfigCenterConfigurationSource(ConfigUtil.java:207)
+[2018-09-05 17:33:14,060/CST][main][INFO]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:155)
+[2018-09-05 17:33:15,009/CST][main][INFO]Found SPI service org.apache.servicecomb.swagger.generator.core.CommonParameterTypeProcessor, count=3. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:76)
+[2018-09-05 17:33:15,009/CST][main][INFO]  0. org.apache.servicecomb.swagger.invocation.generator.InvocationContextProcessor. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-05 17:33:15,009/CST][main][INFO]  1. org.apache.servicecomb.swagger.generator.springmvc.processor.parameter.MultipartFileTypeProcessor. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-05 17:33:15,010/CST][main][INFO]  2. org.apache.servicecomb.swagger.generator.core.processor.parametertype.HttpServletRequestProcessor. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-05 17:33:15,035/CST][main][INFO]Found SPI service org.apache.servicecomb.swagger.generator.core.ResponseTypeProcessor, count=2. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:76)
+[2018-09-05 17:33:15,035/CST][main][INFO]  0. org.apache.servicecomb.swagger.generator.springmvc.processor.response.ResponseEntityProcessor. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-05 17:33:15,036/CST][main][INFO]  1. org.apache.servicecomb.swagger.generator.core.processor.response.CompletableFutureProcessor. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-05 17:33:15,067/CST][main][INFO]Found SPI service org.apache.servicecomb.swagger.generator.core.SwaggerGeneratorContext, count=2. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:76)
+[2018-09-05 17:33:15,067/CST][main][INFO]  0. org.apache.servicecomb.swagger.generator.springmvc.SpringmvcSwaggerGeneratorContext. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-05 17:33:15,067/CST][main][INFO]  1. org.apache.servicecomb.swagger.generator.pojo.PojoSwaggerGeneratorContext. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-05 17:33:15,128/CST][main][INFO]Found SPI service org.apache.servicecomb.swagger.invocation.response.producer.ProducerResponseMapperFactory, count=4. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:76)
+[2018-09-05 17:33:15,128/CST][main][INFO]  0. org.apache.servicecomb.swagger.invocation.response.producer.CseResponseProducerResponseMapperFactory. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-05 17:33:15,128/CST][main][INFO]  1. org.apache.servicecomb.swagger.invocation.response.producer.CompletableFutureProducerResponseMapperFactory. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-05 17:33:15,129/CST][main][INFO]  2. org.apache.servicecomb.swagger.invocation.springmvc.response.SpringmvcProducerResponseMapperFactory. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-05 17:33:15,129/CST][main][INFO]  3. org.apache.servicecomb.swagger.invocation.response.producer.DefaultProducerResponseMapperFactory. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-05 17:33:15,132/CST][main][INFO]Found SPI service org.apache.servicecomb.swagger.invocation.response.consumer.ConsumerResponseMapperFactory, count=4. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:76)
+[2018-09-05 17:33:15,132/CST][main][INFO]  0. org.apache.servicecomb.swagger.invocation.response.consumer.CseResponseConsumerResponseMapperFactory. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-05 17:33:15,133/CST][main][INFO]  1. org.apache.servicecomb.swagger.invocation.response.consumer.CompletableFutureConsumerResponseMapperFactory. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-05 17:33:15,133/CST][main][INFO]  2. org.apache.servicecomb.swagger.invocation.springmvc.response.SpringmvcConsumerResponseMapperFactory. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-05 17:33:15,133/CST][main][INFO]  3. org.apache.servicecomb.swagger.invocation.response.consumer.DefaultConsumerResponseMapperFactory. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-05 17:33:15,196/CST][main][INFO]load microservice config, name=business-service, paths=[jar:file:/D:/Apache/maven-repository/org/apache/servicecomb/java-chassis-core/1.0.0/java-chassis-core-1.0.0.jar!/microservice.yaml, file:/D:/%e7%bb%84%e9%87%8c%e4%bb%bb%e5%8a%a1/new/mmmmmmm/N1N2MessageTransferProvider/target/classes/microservice.yaml] org.apache.servicecomb.serviceregistry.definition.MicroserviceDefinition.logConfigPath(MicroserviceDefinition.java:142)
+[2018-09-05 17:33:15,250/CST][main][INFO]It is running in the normal mode, a separated service registry is required org.apache.servicecomb.serviceregistry.registry.ServiceRegistryFactory.create(ServiceRegistryFactory.java:81)
+[2018-09-05 17:33:15,276/CST][main][INFO]Found SPI service org.apache.servicecomb.serviceregistry.registry.ServiceRegistryTaskInitializer, count=1. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:76)
+[2018-09-05 17:33:15,277/CST][main][INFO]  0. org.apache.servicecomb.serviceregistry.diagnosis.instance.InstanceCacheCheckTask. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-05 17:33:15,279/CST][main][INFO]microserviceVersionFactory is org.apache.servicecomb.core.definition.PrivateMicroserviceVersionMetaFactory. org.apache.servicecomb.serviceregistry.registry.AbstractServiceRegistry.initAppManager(AbstractServiceRegistry.java:125)
+[2018-09-05 17:33:15,421/CST][main][INFO]add network interface name:eth0,host address:192.168.220.1 org.apache.servicecomb.foundation.common.net.NetUtils.doGetIpv4AddressFromNetworkInterface(NetUtils.java:118)
+[2018-09-05 17:33:15,436/CST][main][INFO]add network interface name:eth3,host address:10.10.28.20 org.apache.servicecomb.foundation.common.net.NetUtils.doGetIpv4AddressFromNetworkInterface(NetUtils.java:118)
+[2018-09-05 17:33:15,442/CST][main][INFO]add network interface name:eth4,host address:192.168.177.1 org.apache.servicecomb.foundation.common.net.NetUtils.doGetIpv4AddressFromNetworkInterface(NetUtils.java:118)
+[2018-09-05 17:33:15,552/CST][main][INFO]add host name from localhost:DESKTOP-RVBA5DD,host address:192.168.220.1 org.apache.servicecomb.foundation.common.net.NetUtils.doGetHostNameAndHostAddress(NetUtils.java:76)
+[2018-09-05 17:33:16,730/CST][main][INFO]executor group 2, thread per group 8. org.apache.servicecomb.core.executor.FixedThreadExecutor.<init>(FixedThreadExecutor.java:56)
+[2018-09-05 17:33:16,933/CST][main][INFO]Found SPI service org.apache.servicecomb.swagger.extend.property.creator.PropertyCreator, count=1. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:76)
+[2018-09-05 17:33:16,934/CST][main][INFO]  0. org.apache.servicecomb.swagger.extend.property.creator.springmvc.MultipartFilePropertyCreator. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-05 17:35:11,710/CST][main][ERROR]Can not output merged.log4j.properties,because can not write to directory of file file:/D:/Apache/maven-repository/org/apache/servicecomb/foundation-common/1.0.0/foundation-common-1.0.0.jar!/config/base/log4j.properties org.apache.servicecomb.foundation.common.utils.Log4jUtils.outputFile(Log4jUtils.java:103)
+[2018-09-05 17:35:11,710/CST][main][INFO]Found main class "com.Application". org.apache.servicecomb.foundation.common.utils.JvmUtils.findMainClass(JvmUtils.java:62)
+[2018-09-05 17:35:11,758/CST][main][INFO]Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@59a6e353: startup date [Wed Sep 05 17:35:11 CST 2018]; root of context hierarchy org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:583)
+[2018-09-05 17:35:11,847/CST][main][INFO]Loading XML bean definitions from file [D:\组里任务\new\mmmmmmm\N1N2MessageTransferProvider\target\classes\META-INF\spring\provider.bean.xml] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+[2018-09-05 17:35:13,642/CST][main][INFO]Loading XML bean definitions from URL [jar:file:/D:/Apache/maven-repository/org/apache/servicecomb/java-chassis-core/1.0.0/java-chassis-core-1.0.0.jar!/META-INF/spring/cse.bean.xml] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+[2018-09-05 17:35:15,057/CST][main][INFO]Loading XML bean definitions from URL [jar:file:/D:/Apache/maven-repository/org/apache/servicecomb/foundation-config/1.0.0/foundation-config-1.0.0.jar!/META-INF/spring/cse.bean.xml] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+[2018-09-05 17:35:15,072/CST][main][INFO]Loading XML bean definitions from URL [jar:file:/D:/Apache/maven-repository/org/apache/servicecomb/foundation-vertx/1.0.0/foundation-vertx-1.0.0.jar!/META-INF/spring/cse.bean.xml] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+[2018-09-05 17:35:15,088/CST][main][INFO]Loading XML bean definitions from URL [jar:file:/D:/Apache/maven-repository/org/apache/servicecomb/foundation-common/1.0.0/foundation-common-1.0.0.jar!/META-INF/spring/common.bean.xml] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+[2018-09-05 17:35:15,359/CST][main][INFO]Environment received, will get configurations from [org.springframework.core.env.StandardEnvironment@255640288]. org.apache.servicecomb.config.ConfigurationSpringInitializer.setEnvironment(ConfigurationSpringInitializer.java:59)
+[2018-09-05 17:35:15,390/CST][main][WARN]No URLs will be polled as dynamic configuration sources. com.netflix.config.sources.URLConfigurationSource.<init>(URLConfigurationSource.java:121)
+[2018-09-05 17:35:15,390/CST][main][INFO]To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath. com.netflix.config.sources.URLConfigurationSource.<init>(URLConfigurationSource.java:122)
+[2018-09-05 17:35:15,462/CST][main][INFO]create local config: org.apache.servicecomb.config.ConfigUtil.createLocalConfig(ConfigUtil.java:114)
+[2018-09-05 17:35:15,462/CST][main][INFO] jar:file:/D:/Apache/maven-repository/org/apache/servicecomb/java-chassis-core/1.0.0/java-chassis-core-1.0.0.jar!/microservice.yaml. org.apache.servicecomb.config.ConfigUtil.createLocalConfig(ConfigUtil.java:116)
+[2018-09-05 17:35:15,463/CST][main][INFO] file:/D:/%e7%bb%84%e9%87%8c%e4%bb%bb%e5%8a%a1/new/mmmmmmm/N1N2MessageTransferProvider/target/classes/microservice.yaml. org.apache.servicecomb.config.ConfigUtil.createLocalConfig(ConfigUtil.java:116)
+[2018-09-05 17:35:15,481/CST][main][INFO]Found SPI service org.apache.servicecomb.config.spi.ConfigCenterConfigurationSource, count=0. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:76)
+[2018-09-05 17:35:15,482/CST][main][INFO]Can not find SPI service for org.apache.servicecomb.config.spi.ConfigCenterConfigurationSource org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.getTargetService(SPIServiceUtils.java:107)
+[2018-09-05 17:35:15,483/CST][main][INFO]config center SPI service can not find, skip to load configuration from config center org.apache.servicecomb.config.ConfigUtil.createConfigCenterConfigurationSource(ConfigUtil.java:207)
+[2018-09-05 17:35:15,755/CST][main][INFO]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:155)
+[2018-09-05 17:35:16,422/CST][main][INFO]Found SPI service org.apache.servicecomb.swagger.generator.core.CommonParameterTypeProcessor, count=3. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:76)
+[2018-09-05 17:35:16,422/CST][main][INFO]  0. org.apache.servicecomb.swagger.invocation.generator.InvocationContextProcessor. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-05 17:35:16,423/CST][main][INFO]  1. org.apache.servicecomb.swagger.generator.springmvc.processor.parameter.MultipartFileTypeProcessor. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-05 17:35:16,423/CST][main][INFO]  2. org.apache.servicecomb.swagger.generator.core.processor.parametertype.HttpServletRequestProcessor. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-05 17:35:16,427/CST][main][INFO]Found SPI service org.apache.servicecomb.swagger.generator.core.ResponseTypeProcessor, count=2. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:76)
+[2018-09-05 17:35:16,428/CST][main][INFO]  0. org.apache.servicecomb.swagger.generator.springmvc.processor.response.ResponseEntityProcessor. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-05 17:35:16,428/CST][main][INFO]  1. org.apache.servicecomb.swagger.generator.core.processor.response.CompletableFutureProcessor. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-05 17:35:16,446/CST][main][INFO]Found SPI service org.apache.servicecomb.swagger.generator.core.SwaggerGeneratorContext, count=2. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:76)
+[2018-09-05 17:35:16,447/CST][main][INFO]  0. org.apache.servicecomb.swagger.generator.springmvc.SpringmvcSwaggerGeneratorContext. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-05 17:35:16,447/CST][main][INFO]  1. org.apache.servicecomb.swagger.generator.pojo.PojoSwaggerGeneratorContext. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-05 17:35:16,467/CST][main][INFO]Found SPI service org.apache.servicecomb.swagger.invocation.response.producer.ProducerResponseMapperFactory, count=4. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:76)
+[2018-09-05 17:35:16,467/CST][main][INFO]  0. org.apache.servicecomb.swagger.invocation.response.producer.CseResponseProducerResponseMapperFactory. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-05 17:35:16,467/CST][main][INFO]  1. org.apache.servicecomb.swagger.invocation.response.producer.CompletableFutureProducerResponseMapperFactory. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-05 17:35:16,467/CST][main][INFO]  2. org.apache.servicecomb.swagger.invocation.springmvc.response.SpringmvcProducerResponseMapperFactory. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-05 17:35:16,467/CST][main][INFO]  3. org.apache.servicecomb.swagger.invocation.response.producer.DefaultProducerResponseMapperFactory. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-05 17:35:16,467/CST][main][INFO]Found SPI service org.apache.servicecomb.swagger.invocation.response.consumer.ConsumerResponseMapperFactory, count=4. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:76)
+[2018-09-05 17:35:16,467/CST][main][INFO]  0. org.apache.servicecomb.swagger.invocation.response.consumer.CseResponseConsumerResponseMapperFactory. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-05 17:35:16,467/CST][main][INFO]  1. org.apache.servicecomb.swagger.invocation.response.consumer.CompletableFutureConsumerResponseMapperFactory. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-05 17:35:16,467/CST][main][INFO]  2. org.apache.servicecomb.swagger.invocation.springmvc.response.SpringmvcConsumerResponseMapperFactory. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-05 17:35:16,467/CST][main][INFO]  3. org.apache.servicecomb.swagger.invocation.response.consumer.DefaultConsumerResponseMapperFactory. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-05 17:35:16,530/CST][main][INFO]load microservice config, name=business-service, paths=[jar:file:/D:/Apache/maven-repository/org/apache/servicecomb/java-chassis-core/1.0.0/java-chassis-core-1.0.0.jar!/microservice.yaml, file:/D:/%e7%bb%84%e9%87%8c%e4%bb%bb%e5%8a%a1/new/mmmmmmm/N1N2MessageTransferProvider/target/classes/microservice.yaml] org.apache.servicecomb.serviceregistry.definition.MicroserviceDefinition.logConfigPath(MicroserviceDefinition.java:142)
+[2018-09-05 17:35:16,583/CST][main][INFO]It is running in the normal mode, a separated service registry is required org.apache.servicecomb.serviceregistry.registry.ServiceRegistryFactory.create(ServiceRegistryFactory.java:81)
+[2018-09-05 17:35:16,599/CST][main][INFO]Found SPI service org.apache.servicecomb.serviceregistry.registry.ServiceRegistryTaskInitializer, count=1. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:76)
+[2018-09-05 17:35:16,599/CST][main][INFO]  0. org.apache.servicecomb.serviceregistry.diagnosis.instance.InstanceCacheCheckTask. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-05 17:35:16,599/CST][main][INFO]microserviceVersionFactory is org.apache.servicecomb.core.definition.PrivateMicroserviceVersionMetaFactory. org.apache.servicecomb.serviceregistry.registry.AbstractServiceRegistry.initAppManager(AbstractServiceRegistry.java:125)
+[2018-09-05 17:35:16,772/CST][main][INFO]add network interface name:eth0,host address:192.168.220.1 org.apache.servicecomb.foundation.common.net.NetUtils.doGetIpv4AddressFromNetworkInterface(NetUtils.java:118)
+[2018-09-05 17:35:16,789/CST][main][INFO]add network interface name:eth3,host address:10.10.28.20 org.apache.servicecomb.foundation.common.net.NetUtils.doGetIpv4AddressFromNetworkInterface(NetUtils.java:118)
+[2018-09-05 17:35:16,794/CST][main][INFO]add network interface name:eth4,host address:192.168.177.1 org.apache.servicecomb.foundation.common.net.NetUtils.doGetIpv4AddressFromNetworkInterface(NetUtils.java:118)
+[2018-09-05 17:35:16,885/CST][main][INFO]add host name from localhost:DESKTOP-RVBA5DD,host address:192.168.220.1 org.apache.servicecomb.foundation.common.net.NetUtils.doGetHostNameAndHostAddress(NetUtils.java:76)
+[2018-09-05 17:35:17,766/CST][main][INFO]executor group 2, thread per group 8. org.apache.servicecomb.core.executor.FixedThreadExecutor.<init>(FixedThreadExecutor.java:56)
+[2018-09-05 17:35:17,913/CST][main][INFO]Found SPI service org.apache.servicecomb.swagger.extend.property.creator.PropertyCreator, count=1. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:76)
+[2018-09-05 17:35:17,913/CST][main][INFO]  0. org.apache.servicecomb.swagger.extend.property.creator.springmvc.MultipartFilePropertyCreator. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-05 17:35:18,045/CST][main][INFO]generate swagger for business/business-service/checkInformation, swagger: ---
+swagger: "2.0"
+info:
+  version: "1.0.0"
+  title: "swagger definition for com.checkInformation"
+  x-java-interface: "cse.gen.business.business_service.checkInformation.checkInformationIntf"
+basePath: "/"
+consumes:
+- "application/json"
+produces:
+- "application/json"
+paths:
+  /ue-contexts/{ueContextId}/n1-n2-messages:
+    post:
+      operationId: "check"
+      parameters:
+      - name: "n1_n2_messages"
+        in: "query"
+        required: false
+        type: "string"
+      responses:
+        200:
+          description: "response of 200"
+          schema:
+            type: "object"
+ org.apache.servicecomb.core.definition.schema.ProducerSchemaFactory.createSchema(ProducerSchemaFactory.java:125)
+[2018-09-05 17:35:18,045/CST][main][INFO]register schema business/business-service/checkInformation org.apache.servicecomb.core.definition.loader.SchemaLoader.registerSchema(SchemaLoader.java:93)
+[2018-09-05 17:35:18,224/CST][main][INFO]create CtClass cse.gen.business.business_service.checkInformation.checkInformationIntf in classLoader sun.misc.Launcher$AppClassLoader@18b4aac2. org.apache.servicecomb.common.javassist.JavassistUtils.createCtClass(JavassistUtils.java:185)
+[2018-09-05 17:35:18,225/CST][main][INFO]create class cse.gen.business.business_service.checkInformation.checkInformationIntf in classLoader sun.misc.Launcher$AppClassLoader@18b4aac2. org.apache.servicecomb.common.javassist.JavassistUtils.createClass(JavassistUtils.java:217)
+[2018-09-05 17:35:18,231/CST][main][INFO]Found SPI service org.apache.servicecomb.serviceregistry.discovery.DiscoveryFilter, count=1. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:76)
+[2018-09-05 17:35:18,231/CST][main][INFO]  0. org.apache.servicecomb.core.filter.OperationInstancesDiscoveryFilter. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-05 17:35:18,233/CST][main][INFO]DiscoveryFilter org.apache.servicecomb.core.filter.OperationInstancesDiscoveryFilter, enabled true. org.apache.servicecomb.serviceregistry.discovery.DiscoveryTree.sort(DiscoveryTree.java:104)
+[2018-09-05 17:35:18,233/CST][main][INFO]DiscoveryFilter org.apache.servicecomb.core.filter.EndpointDiscoveryFilter, enabled true. org.apache.servicecomb.serviceregistry.discovery.DiscoveryTree.sort(DiscoveryTree.java:104)
+[2018-09-05 17:35:18,262/CST][main][WARN]Bad practice, low performance, convert from ? to class java.lang.Object org.apache.servicecomb.swagger.invocation.converter.ConverterMgr.findConverter(ConverterMgr.java:98)
+[2018-09-05 17:35:18,264/CST][main][INFO]Found SPI service org.apache.servicecomb.swagger.invocation.extension.ProducerInvokeExtension, count=0. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:76)
+[2018-09-05 17:35:18,280/CST][main][WARN]address /0.0.0.0:8080, auto select a host address to publish 192.168.220.1:8080, maybe not the correct one org.apache.servicecomb.serviceregistry.RegistryUtils.genPublishIpPort(RegistryUtils.java:183)
+[2018-09-05 17:35:18,304/CST][main][INFO]choose org.apache.servicecomb.transport.rest.vertx.VertxRestTransport for rest. org.apache.servicecomb.core.transport.TransportManager.chooseOneTransport(TransportManager.java:84)
+[2018-09-05 17:35:18,305/CST][main][INFO]choose org.apache.servicecomb.transport.highway.HighwayTransport for highway. org.apache.servicecomb.core.transport.TransportManager.chooseOneTransport(TransportManager.java:84)
+[2018-09-05 17:35:18,321/CST][main][INFO]Found SPI service org.apache.servicecomb.common.rest.filter.HttpClientFilter, count=3. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:76)
+[2018-09-05 17:35:18,322/CST][main][INFO]  0. org.apache.servicecomb.provider.springmvc.reference.RestTemplateCopyHeaderFilter. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-05 17:35:18,322/CST][main][INFO]  1. org.apache.servicecomb.common.rest.filter.inner.ClientRestArgsFilter. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-05 17:35:18,322/CST][main][INFO]  2. org.apache.servicecomb.transport.rest.client.http.DefaultHttpClientFilter. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-05 17:35:18,326/CST][main][WARN]keyStore [server.p12] file not exist, please check! org.apache.servicecomb.foundation.vertx.VertxTLSBuilder.buildTCPSSLOptions(VertxTLSBuilder.java:116)
+[2018-09-05 17:35:18,326/CST][main][WARN]trustStore [trust.jks] file not exist, please check! org.apache.servicecomb.foundation.vertx.VertxTLSBuilder.buildTCPSSLOptions(VertxTLSBuilder.java:136)
+[2018-09-05 17:35:18,333/CST][main][WARN]keyStore [server.p12] file not exist, please check! org.apache.servicecomb.foundation.vertx.VertxTLSBuilder.buildTCPSSLOptions(VertxTLSBuilder.java:116)
+[2018-09-05 17:35:18,333/CST][main][WARN]trustStore [trust.jks] file not exist, please check! org.apache.servicecomb.foundation.vertx.VertxTLSBuilder.buildTCPSSLOptions(VertxTLSBuilder.java:136)
+[2018-09-05 17:35:19,144/CST][transport-vert.x-eventloop-thread-4][INFO]Found SPI service org.apache.servicecomb.common.rest.filter.HttpServerFilter, count=2. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:76)
+[2018-09-05 17:35:19,144/CST][transport-vert.x-eventloop-thread-4][INFO]  0. org.apache.servicecomb.common.rest.filter.inner.ServerRestArgsFilter. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-05 17:35:19,144/CST][transport-vert.x-eventloop-thread-4][INFO]  1. org.apache.servicecomb.common.rest.filter.tracing.TracingFilter. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-05 17:35:19,145/CST][transport-vert.x-eventloop-thread-4][INFO]Found SPI service org.apache.servicecomb.transport.rest.vertx.VertxHttpDispatcher, count=1. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:76)
+[2018-09-05 17:35:19,145/CST][transport-vert.x-eventloop-thread-4][INFO]  0. org.apache.servicecomb.transport.rest.vertx.VertxRestDispatcher. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-05 17:35:19,148/CST][transport-vert.x-eventloop-thread-4][INFO]servicecomb.uploads.directory is null, not support upload. org.apache.servicecomb.common.rest.UploadConfig.toMultipartConfigElement(UploadConfig.java:92)
+[2018-09-05 17:35:19,198/CST][transport-vert.x-eventloop-thread-4][INFO]rest listen success. address=0.0.0.0:8080 org.apache.servicecomb.transport.rest.vertx.RestServerVerticle.lambda$startListen$0(RestServerVerticle.java:143)
+[2018-09-05 17:35:19,199/CST][main][INFO]endpoint to publish: rest://192.168.220.1:8080 org.apache.servicecomb.core.transport.TransportManager.init(TransportManager.java:58)
+[2018-09-05 17:35:19,200/CST][main][WARN]keyStore [server.p12] file not exist, please check! org.apache.servicecomb.foundation.vertx.VertxTLSBuilder.buildTCPSSLOptions(VertxTLSBuilder.java:116)
+[2018-09-05 17:35:19,200/CST][main][WARN]trustStore [trust.jks] file not exist, please check! org.apache.servicecomb.foundation.vertx.VertxTLSBuilder.buildTCPSSLOptions(VertxTLSBuilder.java:136)
+[2018-09-05 17:35:19,200/CST][main][WARN]keyStore [server.p12] file not exist, please check! org.apache.servicecomb.foundation.vertx.VertxTLSBuilder.buildTCPSSLOptions(VertxTLSBuilder.java:116)
+[2018-09-05 17:35:19,201/CST][main][WARN]trustStore [trust.jks] file not exist, please check! org.apache.servicecomb.foundation.vertx.VertxTLSBuilder.buildTCPSSLOptions(VertxTLSBuilder.java:136)
+[2018-09-05 17:35:19,216/CST][main][WARN]Service center do not support encoded query, so we use unencoded query, this caused not support chinese/space (and maybe other char) in query value. org.apache.servicecomb.core.transport.AbstractTransport.genAddressWithoutSchemaForOldSC(AbstractTransport.java:129)
+[2018-09-05 17:35:19,218/CST][main][WARN]address /0.0.0.0:7070, auto select a host address to publish 192.168.220.1:7070, maybe not the correct one org.apache.servicecomb.serviceregistry.RegistryUtils.genPublishIpPort(RegistryUtils.java:183)
+[2018-09-05 17:35:19,227/CST][transport-vert.x-eventloop-thread-8][INFO]highway listen success. address=0.0.0.0:7070 org.apache.servicecomb.transport.highway.HighwayServerVerticle.lambda$startListen$0(HighwayServerVerticle.java:73)
+[2018-09-05 17:35:19,228/CST][main][INFO]endpoint to publish: highway://192.168.220.1:7070?login=true org.apache.servicecomb.core.transport.TransportManager.init(TransportManager.java:58)
+[2018-09-05 17:35:19,231/CST][main][INFO]Found SPI service org.apache.servicecomb.common.rest.codec.produce.ProduceProcessor, count=2. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:76)
+[2018-09-05 17:35:19,232/CST][main][INFO]  0. org.apache.servicecomb.common.rest.codec.produce.ProduceJsonProcessor. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-05 17:35:19,232/CST][main][INFO]  1. org.apache.servicecomb.common.rest.codec.produce.ProduceTextPlainProcessor. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-05 17:35:19,240/CST][main][INFO]add schema to service paths. business:business-service:checkInformation. org.apache.servicecomb.common.rest.locator.ServicePathManager.addSchema(ServicePathManager.java:91)
+[2018-09-05 17:35:19,240/CST][main][INFO]Swagger mapped "{[/ue-contexts/{ueContextId}/n1-n2-messages/], method=[POST], produces=[application/json]}" onto public abstract java.lang.Object cse.gen.business.business_service.checkInformation.checkInformationIntf.check(java.lang.String) org.apache.servicecomb.common.rest.locator.MicroservicePaths.printPath(MicroservicePaths.java:103)
+[2018-09-05 17:35:19,243/CST][main][INFO]running microservice register task. org.apache.servicecomb.serviceregistry.task.MicroserviceRegisterTask.doRegister(MicroserviceRegisterTask.java:75)
+[2018-09-05 17:35:19,270/CST][registry-vert.x-eventloop-thread-0][WARN]get response for org.apache.servicecomb.serviceregistry.api.response.GetExistenceResponse failed, 400:Bad Request, {"errorCode":"400012","errorMessage":"Micro-service does not exist","detail":"service does not exist."}
+ org.apache.servicecomb.serviceregistry.client.http.ServiceRegistryClientImpl.lambda$null$0(ServiceRegistryClientImpl.java:125)
+[2018-09-05 17:35:19,326/CST][main][INFO]Registry Microservice successfully. id=[00e13da4b0ef11e898a4acb57d9c56a1] appId=[business], name=[business-service], version=[1.0.0], schemaIds=[checkInformation], env=[] org.apache.servicecomb.serviceregistry.task.MicroserviceRegisterTask.doRegister(MicroserviceRegisterTask.java:109)
+[2018-09-05 17:35:19,376/CST][main][INFO]schemaId [checkInformation] exists [true], summary exists [false] org.apache.servicecomb.serviceregistry.task.MicroserviceRegisterTask.registerSchema(MicroserviceRegisterTask.java:194)
+[2018-09-05 17:35:19,379/CST][registry-vert.x-eventloop-thread-0][WARN]get response for org.apache.servicecomb.serviceregistry.api.response.GetSchemaResponse failed, 400:Bad Request, {"errorCode":"400016","errorMessage":"Schema does not exist","detail":"Do not have this schema info."}
+ org.apache.servicecomb.serviceregistry.client.http.ServiceRegistryClientImpl.lambda$null$0(ServiceRegistryClientImpl.java:125)
+[2018-09-05 17:35:19,429/CST][main][INFO]register schema 00e13da4b0ef11e898a4acb57d9c56a1/checkInformation success. org.apache.servicecomb.serviceregistry.client.http.ServiceRegistryClientImpl.registerSchema(ServiceRegistryClientImpl.java:334)
+[2018-09-05 17:35:19,433/CST][main][INFO]read MicroserviceRegisterTask status is FINISHED org.apache.servicecomb.serviceregistry.task.ServiceCenterTask.onRegisterTask(ServiceCenterTask.java:51)
+[2018-09-05 17:35:19,433/CST][main][INFO]running microservice instance register task. org.apache.servicecomb.serviceregistry.task.MicroserviceInstanceRegisterTask.doRegister(MicroserviceInstanceRegisterTask.java:59)
+[2018-09-05 17:35:19,495/CST][main][INFO]Register microservice instance success. microserviceId=00e13da4b0ef11e898a4acb57d9c56a1 instanceId=00f27930b0ef11e898a4acb57d9c56a1 endpoints=[rest://192.168.220.1:8080, highway://192.168.220.1:7070?login=true] lease 120s org.apache.servicecomb.serviceregistry.task.MicroserviceInstanceRegisterTask.doRegister(MicroserviceInstanceRegisterTask.java:77)
+[2018-09-05 17:35:19,496/CST][main][INFO]receive MicroserviceInstanceRegisterTask event, check instance Id... org.apache.servicecomb.core.SCBEngine$1.afterRegistryInstance(SCBEngine.java:152)
+[2018-09-05 17:35:19,496/CST][main][INFO]instance registry succeeds for the first time, will send AFTER_REGISTRY event. org.apache.servicecomb.core.SCBEngine$1.afterRegistryInstance(SCBEngine.java:154)
+[2018-09-05 17:35:19,497/CST][main][INFO]read MicroserviceInstanceRegisterTask status is FINISHED org.apache.servicecomb.serviceregistry.task.ServiceCenterTask.onRegisterTask(ServiceCenterTask.java:51)
+[2018-09-05 17:35:19,711/CST][registry-vert.x-eventloop-thread-2][INFO]watching microservice 00e13da4b0ef11e898a4acb57d9c56a1 successfully, the chosen service center address is 127.0.0.1:30100 org.apache.servicecomb.serviceregistry.client.http.ServiceRegistryClientImpl.lambda$watch$8(ServiceRegistryClientImpl.java:584)
+[2018-09-05 17:35:49,508/CST][Service Center Task][INFO]sc task interval changed from -1 to 30 org.apache.servicecomb.serviceregistry.task.ServiceCenterTaskMonitor.beginCycle(ServiceCenterTaskMonitor.java:39)
+[2018-09-06 11:15:32,929/CST][main][ERROR]Can not output merged.log4j.properties,because can not write to directory of file file:/D:/Apache/maven-repository/org/apache/servicecomb/foundation-common/1.0.0/foundation-common-1.0.0.jar!/config/base/log4j.properties org.apache.servicecomb.foundation.common.utils.Log4jUtils.outputFile(Log4jUtils.java:103)
+[2018-09-06 11:15:32,984/CST][main][INFO]Found main class "com.Application". org.apache.servicecomb.foundation.common.utils.JvmUtils.findMainClass(JvmUtils.java:62)
+[2018-09-06 11:15:33,105/CST][main][INFO]Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@59a6e353: startup date [Thu Sep 06 11:15:33 CST 2018]; root of context hierarchy org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:583)
+[2018-09-06 11:15:33,228/CST][main][INFO]Loading XML bean definitions from file [D:\组里任务\new\mmmmmmm\N1N2MessageTransferProvider\target\classes\META-INF\spring\provider.bean.xml] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+[2018-09-06 11:15:36,283/CST][main][INFO]Loading XML bean definitions from URL [jar:file:/D:/Apache/maven-repository/org/apache/servicecomb/java-chassis-core/1.0.0/java-chassis-core-1.0.0.jar!/META-INF/spring/cse.bean.xml] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+[2018-09-06 11:15:37,976/CST][main][INFO]Loading XML bean definitions from URL [jar:file:/D:/Apache/maven-repository/org/apache/servicecomb/foundation-config/1.0.0/foundation-config-1.0.0.jar!/META-INF/spring/cse.bean.xml] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+[2018-09-06 11:15:37,991/CST][main][INFO]Loading XML bean definitions from URL [jar:file:/D:/Apache/maven-repository/org/apache/servicecomb/foundation-vertx/1.0.0/foundation-vertx-1.0.0.jar!/META-INF/spring/cse.bean.xml] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+[2018-09-06 11:15:38,007/CST][main][INFO]Loading XML bean definitions from URL [jar:file:/D:/Apache/maven-repository/org/apache/servicecomb/foundation-common/1.0.0/foundation-common-1.0.0.jar!/META-INF/spring/common.bean.xml] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+[2018-09-06 11:15:38,314/CST][main][INFO]Environment received, will get configurations from [org.springframework.core.env.StandardEnvironment@255640288]. org.apache.servicecomb.config.ConfigurationSpringInitializer.setEnvironment(ConfigurationSpringInitializer.java:59)
+[2018-09-06 11:15:38,329/CST][main][WARN]No URLs will be polled as dynamic configuration sources. com.netflix.config.sources.URLConfigurationSource.<init>(URLConfigurationSource.java:121)
+[2018-09-06 11:15:38,329/CST][main][INFO]To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath. com.netflix.config.sources.URLConfigurationSource.<init>(URLConfigurationSource.java:122)
+[2018-09-06 11:15:38,408/CST][main][INFO]create local config: org.apache.servicecomb.config.ConfigUtil.createLocalConfig(ConfigUtil.java:114)
+[2018-09-06 11:15:38,408/CST][main][INFO] jar:file:/D:/Apache/maven-repository/org/apache/servicecomb/java-chassis-core/1.0.0/java-chassis-core-1.0.0.jar!/microservice.yaml. org.apache.servicecomb.config.ConfigUtil.createLocalConfig(ConfigUtil.java:116)
+[2018-09-06 11:15:38,408/CST][main][INFO] file:/D:/%e7%bb%84%e9%87%8c%e4%bb%bb%e5%8a%a1/new/mmmmmmm/N1N2MessageTransferProvider/target/classes/microservice.yaml. org.apache.servicecomb.config.ConfigUtil.createLocalConfig(ConfigUtil.java:116)
+[2018-09-06 11:15:38,443/CST][main][INFO]Found SPI service org.apache.servicecomb.config.spi.ConfigCenterConfigurationSource, count=0. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:76)
+[2018-09-06 11:15:38,443/CST][main][INFO]Can not find SPI service for org.apache.servicecomb.config.spi.ConfigCenterConfigurationSource org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.getTargetService(SPIServiceUtils.java:107)
+[2018-09-06 11:15:38,444/CST][main][INFO]config center SPI service can not find, skip to load configuration from config center org.apache.servicecomb.config.ConfigUtil.createConfigCenterConfigurationSource(ConfigUtil.java:207)
+[2018-09-06 11:15:38,746/CST][main][INFO]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:155)
+[2018-09-06 11:15:39,636/CST][main][INFO]Found SPI service org.apache.servicecomb.swagger.generator.core.CommonParameterTypeProcessor, count=3. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:76)
+[2018-09-06 11:15:39,637/CST][main][INFO]  0. org.apache.servicecomb.swagger.invocation.generator.InvocationContextProcessor. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-06 11:15:39,637/CST][main][INFO]  1. org.apache.servicecomb.swagger.generator.springmvc.processor.parameter.MultipartFileTypeProcessor. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-06 11:15:39,637/CST][main][INFO]  2. org.apache.servicecomb.swagger.generator.core.processor.parametertype.HttpServletRequestProcessor. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-06 11:15:39,659/CST][main][INFO]Found SPI service org.apache.servicecomb.swagger.generator.core.ResponseTypeProcessor, count=2. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:76)
+[2018-09-06 11:15:39,659/CST][main][INFO]  0. org.apache.servicecomb.swagger.generator.springmvc.processor.response.ResponseEntityProcessor. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-06 11:15:39,660/CST][main][INFO]  1. org.apache.servicecomb.swagger.generator.core.processor.response.CompletableFutureProcessor. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-06 11:15:39,681/CST][main][INFO]Found SPI service org.apache.servicecomb.swagger.generator.core.SwaggerGeneratorContext, count=2. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:76)
+[2018-09-06 11:15:39,681/CST][main][INFO]  0. org.apache.servicecomb.swagger.generator.springmvc.SpringmvcSwaggerGeneratorContext. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-06 11:15:39,681/CST][main][INFO]  1. org.apache.servicecomb.swagger.generator.pojo.PojoSwaggerGeneratorContext. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-06 11:15:39,719/CST][main][INFO]Found SPI service org.apache.servicecomb.swagger.invocation.response.producer.ProducerResponseMapperFactory, count=4. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:76)
+[2018-09-06 11:15:39,720/CST][main][INFO]  0. org.apache.servicecomb.swagger.invocation.response.producer.CseResponseProducerResponseMapperFactory. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-06 11:15:39,720/CST][main][INFO]  1. org.apache.servicecomb.swagger.invocation.response.producer.CompletableFutureProducerResponseMapperFactory. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-06 11:15:39,720/CST][main][INFO]  2. org.apache.servicecomb.swagger.invocation.springmvc.response.SpringmvcProducerResponseMapperFactory. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-06 11:15:39,721/CST][main][INFO]  3. org.apache.servicecomb.swagger.invocation.response.producer.DefaultProducerResponseMapperFactory. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-06 11:15:39,724/CST][main][INFO]Found SPI service org.apache.servicecomb.swagger.invocation.response.consumer.ConsumerResponseMapperFactory, count=4. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:76)
+[2018-09-06 11:15:39,724/CST][main][INFO]  0. org.apache.servicecomb.swagger.invocation.response.consumer.CseResponseConsumerResponseMapperFactory. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-06 11:15:39,724/CST][main][INFO]  1. org.apache.servicecomb.swagger.invocation.response.consumer.CompletableFutureConsumerResponseMapperFactory. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-06 11:15:39,724/CST][main][INFO]  2. org.apache.servicecomb.swagger.invocation.springmvc.response.SpringmvcConsumerResponseMapperFactory. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-06 11:15:39,725/CST][main][INFO]  3. org.apache.servicecomb.swagger.invocation.response.consumer.DefaultConsumerResponseMapperFactory. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-06 11:15:39,779/CST][main][INFO]load microservice config, name=business-service, paths=[jar:file:/D:/Apache/maven-repository/org/apache/servicecomb/java-chassis-core/1.0.0/java-chassis-core-1.0.0.jar!/microservice.yaml, file:/D:/%e7%bb%84%e9%87%8c%e4%bb%bb%e5%8a%a1/new/mmmmmmm/N1N2MessageTransferProvider/target/classes/microservice.yaml] org.apache.servicecomb.serviceregistry.definition.MicroserviceDefinition.logConfigPath(MicroserviceDefinition.java:142)
+[2018-09-06 11:15:39,827/CST][main][INFO]It is running in the normal mode, a separated service registry is required org.apache.servicecomb.serviceregistry.registry.ServiceRegistryFactory.create(ServiceRegistryFactory.java:81)
+[2018-09-06 11:15:39,850/CST][main][INFO]Found SPI service org.apache.servicecomb.serviceregistry.registry.ServiceRegistryTaskInitializer, count=1. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:76)
+[2018-09-06 11:15:39,850/CST][main][INFO]  0. org.apache.servicecomb.serviceregistry.diagnosis.instance.InstanceCacheCheckTask. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-06 11:15:39,854/CST][main][INFO]microserviceVersionFactory is org.apache.servicecomb.core.definition.PrivateMicroserviceVersionMetaFactory. org.apache.servicecomb.serviceregistry.registry.AbstractServiceRegistry.initAppManager(AbstractServiceRegistry.java:125)
+[2018-09-06 11:15:40,007/CST][main][INFO]add network interface name:eth0,host address:192.168.220.1 org.apache.servicecomb.foundation.common.net.NetUtils.doGetIpv4AddressFromNetworkInterface(NetUtils.java:118)
+[2018-09-06 11:15:40,025/CST][main][INFO]add network interface name:eth3,host address:10.10.28.20 org.apache.servicecomb.foundation.common.net.NetUtils.doGetIpv4AddressFromNetworkInterface(NetUtils.java:118)
+[2018-09-06 11:15:40,030/CST][main][INFO]add network interface name:eth4,host address:192.168.177.1 org.apache.servicecomb.foundation.common.net.NetUtils.doGetIpv4AddressFromNetworkInterface(NetUtils.java:118)
+[2018-09-06 11:15:40,143/CST][main][INFO]add host name from localhost:DESKTOP-RVBA5DD,host address:192.168.220.1 org.apache.servicecomb.foundation.common.net.NetUtils.doGetHostNameAndHostAddress(NetUtils.java:76)
+[2018-09-06 11:15:41,440/CST][main][INFO]executor group 2, thread per group 8. org.apache.servicecomb.core.executor.FixedThreadExecutor.<init>(FixedThreadExecutor.java:56)
+[2018-09-06 11:15:41,707/CST][main][INFO]Found SPI service org.apache.servicecomb.swagger.extend.property.creator.PropertyCreator, count=1. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:76)
+[2018-09-06 11:15:41,707/CST][main][INFO]  0. org.apache.servicecomb.swagger.extend.property.creator.springmvc.MultipartFilePropertyCreator. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-06 11:15:41,821/CST][main][INFO]generate swagger for business/business-service/checkInformation, swagger: ---
+swagger: "2.0"
+info:
+  version: "1.0.0"
+  title: "swagger definition for com.checkInformation"
+  x-java-interface: "cse.gen.business.business_service.checkInformation.checkInformationIntf"
+basePath: "/"
+consumes:
+- "application/json"
+produces:
+- "application/json"
+paths:
+  /ue-contexts/id:
+    post:
+      operationId: "check"
+      parameters:
+      - name: "n1_n2_messages"
+        in: "query"
+        required: false
+        type: "string"
+      responses:
+        200:
+          description: "response of 200"
+          schema:
+            type: "object"
+ org.apache.servicecomb.core.definition.schema.ProducerSchemaFactory.createSchema(ProducerSchemaFactory.java:125)
+[2018-09-06 11:15:41,822/CST][main][INFO]register schema business/business-service/checkInformation org.apache.servicecomb.core.definition.loader.SchemaLoader.registerSchema(SchemaLoader.java:93)
+[2018-09-06 11:15:42,058/CST][main][INFO]create CtClass cse.gen.business.business_service.checkInformation.checkInformationIntf in classLoader sun.misc.Launcher$AppClassLoader@18b4aac2. org.apache.servicecomb.common.javassist.JavassistUtils.createCtClass(JavassistUtils.java:185)
+[2018-09-06 11:15:42,059/CST][main][INFO]create class cse.gen.business.business_service.checkInformation.checkInformationIntf in classLoader sun.misc.Launcher$AppClassLoader@18b4aac2. org.apache.servicecomb.common.javassist.JavassistUtils.createClass(JavassistUtils.java:217)
+[2018-09-06 11:15:42,066/CST][main][INFO]Found SPI service org.apache.servicecomb.serviceregistry.discovery.DiscoveryFilter, count=1. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:76)
+[2018-09-06 11:15:42,066/CST][main][INFO]  0. org.apache.servicecomb.core.filter.OperationInstancesDiscoveryFilter. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-06 11:15:42,069/CST][main][INFO]DiscoveryFilter org.apache.servicecomb.core.filter.OperationInstancesDiscoveryFilter, enabled true. org.apache.servicecomb.serviceregistry.discovery.DiscoveryTree.sort(DiscoveryTree.java:104)
+[2018-09-06 11:15:42,070/CST][main][INFO]DiscoveryFilter org.apache.servicecomb.core.filter.EndpointDiscoveryFilter, enabled true. org.apache.servicecomb.serviceregistry.discovery.DiscoveryTree.sort(DiscoveryTree.java:104)
+[2018-09-06 11:15:42,124/CST][main][WARN]Bad practice, low performance, convert from ? to class java.lang.Object org.apache.servicecomb.swagger.invocation.converter.ConverterMgr.findConverter(ConverterMgr.java:98)
+[2018-09-06 11:15:42,126/CST][main][INFO]Found SPI service org.apache.servicecomb.swagger.invocation.extension.ProducerInvokeExtension, count=0. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:76)
+[2018-09-06 11:15:42,141/CST][main][WARN]address /0.0.0.0:8080, auto select a host address to publish 192.168.220.1:8080, maybe not the correct one org.apache.servicecomb.serviceregistry.RegistryUtils.genPublishIpPort(RegistryUtils.java:183)
+[2018-09-06 11:15:42,154/CST][main][INFO]choose org.apache.servicecomb.transport.rest.vertx.VertxRestTransport for rest. org.apache.servicecomb.core.transport.TransportManager.chooseOneTransport(TransportManager.java:84)
+[2018-09-06 11:15:42,155/CST][main][INFO]choose org.apache.servicecomb.transport.highway.HighwayTransport for highway. org.apache.servicecomb.core.transport.TransportManager.chooseOneTransport(TransportManager.java:84)
+[2018-09-06 11:15:42,170/CST][main][INFO]Found SPI service org.apache.servicecomb.common.rest.filter.HttpClientFilter, count=3. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:76)
+[2018-09-06 11:15:42,171/CST][main][INFO]  0. org.apache.servicecomb.provider.springmvc.reference.RestTemplateCopyHeaderFilter. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-06 11:15:42,171/CST][main][INFO]  1. org.apache.servicecomb.common.rest.filter.inner.ClientRestArgsFilter. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-06 11:15:42,171/CST][main][INFO]  2. org.apache.servicecomb.transport.rest.client.http.DefaultHttpClientFilter. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-06 11:15:42,174/CST][main][WARN]keyStore [server.p12] file not exist, please check! org.apache.servicecomb.foundation.vertx.VertxTLSBuilder.buildTCPSSLOptions(VertxTLSBuilder.java:116)
+[2018-09-06 11:15:42,175/CST][main][WARN]trustStore [trust.jks] file not exist, please check! org.apache.servicecomb.foundation.vertx.VertxTLSBuilder.buildTCPSSLOptions(VertxTLSBuilder.java:136)
+[2018-09-06 11:15:42,179/CST][main][WARN]keyStore [server.p12] file not exist, please check! org.apache.servicecomb.foundation.vertx.VertxTLSBuilder.buildTCPSSLOptions(VertxTLSBuilder.java:116)
+[2018-09-06 11:15:42,180/CST][main][WARN]trustStore [trust.jks] file not exist, please check! org.apache.servicecomb.foundation.vertx.VertxTLSBuilder.buildTCPSSLOptions(VertxTLSBuilder.java:136)
+[2018-09-06 11:15:43,312/CST][transport-vert.x-eventloop-thread-4][INFO]Found SPI service org.apache.servicecomb.common.rest.filter.HttpServerFilter, count=2. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:76)
+[2018-09-06 11:15:43,312/CST][transport-vert.x-eventloop-thread-4][INFO]  0. org.apache.servicecomb.common.rest.filter.inner.ServerRestArgsFilter. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-06 11:15:43,312/CST][transport-vert.x-eventloop-thread-4][INFO]  1. org.apache.servicecomb.common.rest.filter.tracing.TracingFilter. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-06 11:15:43,312/CST][transport-vert.x-eventloop-thread-4][INFO]Found SPI service org.apache.servicecomb.transport.rest.vertx.VertxHttpDispatcher, count=1. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:76)
+[2018-09-06 11:15:43,312/CST][transport-vert.x-eventloop-thread-4][INFO]  0. org.apache.servicecomb.transport.rest.vertx.VertxRestDispatcher. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-06 11:15:43,312/CST][transport-vert.x-eventloop-thread-4][INFO]servicecomb.uploads.directory is null, not support upload. org.apache.servicecomb.common.rest.UploadConfig.toMultipartConfigElement(UploadConfig.java:92)
+[2018-09-06 11:15:43,363/CST][transport-vert.x-eventloop-thread-4][INFO]rest listen success. address=0.0.0.0:8080 org.apache.servicecomb.transport.rest.vertx.RestServerVerticle.lambda$startListen$0(RestServerVerticle.java:143)
+[2018-09-06 11:15:43,363/CST][main][INFO]endpoint to publish: rest://192.168.220.1:8080 org.apache.servicecomb.core.transport.TransportManager.init(TransportManager.java:58)
+[2018-09-06 11:15:43,363/CST][main][WARN]keyStore [server.p12] file not exist, please check! org.apache.servicecomb.foundation.vertx.VertxTLSBuilder.buildTCPSSLOptions(VertxTLSBuilder.java:116)
+[2018-09-06 11:15:43,363/CST][main][WARN]trustStore [trust.jks] file not exist, please check! org.apache.servicecomb.foundation.vertx.VertxTLSBuilder.buildTCPSSLOptions(VertxTLSBuilder.java:136)
+[2018-09-06 11:15:43,378/CST][main][WARN]keyStore [server.p12] file not exist, please check! org.apache.servicecomb.foundation.vertx.VertxTLSBuilder.buildTCPSSLOptions(VertxTLSBuilder.java:116)
+[2018-09-06 11:15:43,378/CST][main][WARN]trustStore [trust.jks] file not exist, please check! org.apache.servicecomb.foundation.vertx.VertxTLSBuilder.buildTCPSSLOptions(VertxTLSBuilder.java:136)
+[2018-09-06 11:15:43,394/CST][main][WARN]Service center do not support encoded query, so we use unencoded query, this caused not support chinese/space (and maybe other char) in query value. org.apache.servicecomb.core.transport.AbstractTransport.genAddressWithoutSchemaForOldSC(AbstractTransport.java:129)
+[2018-09-06 11:15:43,425/CST][main][WARN]address /0.0.0.0:7070, auto select a host address to publish 192.168.220.1:7070, maybe not the correct one org.apache.servicecomb.serviceregistry.RegistryUtils.genPublishIpPort(RegistryUtils.java:183)
+[2018-09-06 11:15:43,446/CST][transport-vert.x-eventloop-thread-8][INFO]highway listen success. address=0.0.0.0:7070 org.apache.servicecomb.transport.highway.HighwayServerVerticle.lambda$startListen$0(HighwayServerVerticle.java:73)
+[2018-09-06 11:15:43,447/CST][main][INFO]endpoint to publish: highway://192.168.220.1:7070?login=true org.apache.servicecomb.core.transport.TransportManager.init(TransportManager.java:58)
+[2018-09-06 11:15:43,448/CST][main][INFO]Found SPI service org.apache.servicecomb.common.rest.codec.produce.ProduceProcessor, count=2. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:76)
+[2018-09-06 11:15:43,448/CST][main][INFO]  0. org.apache.servicecomb.common.rest.codec.produce.ProduceJsonProcessor. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-06 11:15:43,448/CST][main][INFO]  1. org.apache.servicecomb.common.rest.codec.produce.ProduceTextPlainProcessor. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-06 11:15:43,448/CST][main][INFO]add schema to service paths. business:business-service:checkInformation. org.apache.servicecomb.common.rest.locator.ServicePathManager.addSchema(ServicePathManager.java:91)
+[2018-09-06 11:15:43,464/CST][main][INFO]Swagger mapped "{[/ue-contexts/id/], method=[POST], produces=[application/json]}" onto public abstract java.lang.Object cse.gen.business.business_service.checkInformation.checkInformationIntf.check(java.lang.String) org.apache.servicecomb.common.rest.locator.MicroservicePaths.printPath(MicroservicePaths.java:103)
+[2018-09-06 11:15:43,464/CST][main][INFO]running microservice register task. org.apache.servicecomb.serviceregistry.task.MicroserviceRegisterTask.doRegister(MicroserviceRegisterTask.java:75)
+[2018-09-06 11:15:43,473/CST][main][INFO]Microservice exists in service center, no need to register. id=[00e13da4b0ef11e898a4acb57d9c56a1] appId=[business], name=[business-service], version=[1.0.0], env=[] org.apache.servicecomb.serviceregistry.task.MicroserviceRegisterTask.doRegister(MicroserviceRegisterTask.java:83)
+[2018-09-06 11:15:43,493/CST][main][INFO]SchemaIds are equals to service center. serviceId=[00e13da4b0ef11e898a4acb57d9c56a1], appId=[business], name=[business-service], version=[1.0.0], env=[], schemaIds=[checkInformation] org.apache.servicecomb.serviceregistry.task.MicroserviceRegisterTask.checkSchemaIdSet(MicroserviceRegisterTask.java:149)
+[2018-09-06 11:15:43,498/CST][main][INFO]schemaId [checkInformation] exists [true], summary exists [true] org.apache.servicecomb.serviceregistry.task.MicroserviceRegisterTask.registerSchema(MicroserviceRegisterTask.java:194)
+[2018-09-06 11:15:43,508/CST][main][WARN]service center schema and local schema both are different:
+ service center schema:
+[---
+swagger: "2.0"
+info:
+  version: "1.0.0"
+  title: "swagger definition for com.checkInformation"
+  x-java-interface: "cse.gen.business.business_service.checkInformation.checkInformationIntf"
+basePath: "/"
+consumes:
+- "application/json"
+produces:
+- "application/json"
+paths:
+  /ue-contexts/{ueContextId}/n1-n2-messages:
+    post:
+      operationId: "check"
+      parameters:
+      - name: "n1_n2_messages"
+        in: "query"
+        required: false
+        type: "string"
+      responses:
+        200:
+          description: "response of 200"
+          schema:
+            type: "object"
+
+ local schema:
+[---
+swagger: "2.0"
+info:
+  version: "1.0.0"
+  title: "swagger definition for com.checkInformation"
+  x-java-interface: "cse.gen.business.business_service.checkInformation.checkInformationIntf"
+basePath: "/"
+consumes:
+- "application/json"
+produces:
+- "application/json"
+paths:
+  /ue-contexts/id:
+    post:
+      operationId: "check"
+      parameters:
+      - name: "n1_n2_messages"
+        in: "query"
+        required: false
+        type: "string"
+      responses:
+        200:
+          description: "response of 200"
+          schema:
+            type: "object"
+] org.apache.servicecomb.serviceregistry.task.MicroserviceRegisterTask.compareAndReRegisterSchema(MicroserviceRegisterTask.java:264)
+[2018-09-06 11:15:43,508/CST][main][WARN]The difference in local schema:
+[id:
+    post:
+      operationId: "check"
+      parameters:
+      - name: "n1_n2_messages"
+        in: "query"
+        required: false
+        type: "string"
+      responses:
+        200:
+          description: "response of 200"
+          schema:
+            type: "object"
+] org.apache.servicecomb.serviceregistry.task.MicroserviceRegisterTask.compareAndReRegisterSchema(MicroserviceRegisterTask.java:272)
+[2018-09-06 11:17:01,621/CST][main][ERROR]Can not output merged.log4j.properties,because can not write to directory of file file:/D:/Apache/maven-repository/org/apache/servicecomb/foundation-common/1.0.0/foundation-common-1.0.0.jar!/config/base/log4j.properties org.apache.servicecomb.foundation.common.utils.Log4jUtils.outputFile(Log4jUtils.java:103)
+[2018-09-06 11:17:01,621/CST][main][INFO]Found main class "com.Application". org.apache.servicecomb.foundation.common.utils.JvmUtils.findMainClass(JvmUtils.java:62)
+[2018-09-06 11:17:01,659/CST][main][INFO]Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@59a6e353: startup date [Thu Sep 06 11:17:01 CST 2018]; root of context hierarchy org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:583)
+[2018-09-06 11:17:01,792/CST][main][INFO]Loading XML bean definitions from file [D:\组里任务\new\mmmmmmm\N1N2MessageTransferProvider\target\classes\META-INF\spring\provider.bean.xml] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+[2018-09-06 11:17:03,873/CST][main][INFO]Loading XML bean definitions from URL [jar:file:/D:/Apache/maven-repository/org/apache/servicecomb/java-chassis-core/1.0.0/java-chassis-core-1.0.0.jar!/META-INF/spring/cse.bean.xml] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+[2018-09-06 11:17:05,933/CST][main][INFO]Loading XML bean definitions from URL [jar:file:/D:/Apache/maven-repository/org/apache/servicecomb/foundation-config/1.0.0/foundation-config-1.0.0.jar!/META-INF/spring/cse.bean.xml] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+[2018-09-06 11:17:05,946/CST][main][INFO]Loading XML bean definitions from URL [jar:file:/D:/Apache/maven-repository/org/apache/servicecomb/foundation-vertx/1.0.0/foundation-vertx-1.0.0.jar!/META-INF/spring/cse.bean.xml] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+[2018-09-06 11:17:05,959/CST][main][INFO]Loading XML bean definitions from URL [jar:file:/D:/Apache/maven-repository/org/apache/servicecomb/foundation-common/1.0.0/foundation-common-1.0.0.jar!/META-INF/spring/common.bean.xml] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+[2018-09-06 11:17:06,253/CST][main][INFO]Environment received, will get configurations from [org.springframework.core.env.StandardEnvironment@255640288]. org.apache.servicecomb.config.ConfigurationSpringInitializer.setEnvironment(ConfigurationSpringInitializer.java:59)
+[2018-09-06 11:17:06,271/CST][main][WARN]No URLs will be polled as dynamic configuration sources. com.netflix.config.sources.URLConfigurationSource.<init>(URLConfigurationSource.java:121)
+[2018-09-06 11:17:06,272/CST][main][INFO]To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath. com.netflix.config.sources.URLConfigurationSource.<init>(URLConfigurationSource.java:122)
+[2018-09-06 11:17:06,367/CST][main][INFO]create local config: org.apache.servicecomb.config.ConfigUtil.createLocalConfig(ConfigUtil.java:114)
+[2018-09-06 11:17:06,368/CST][main][INFO] jar:file:/D:/Apache/maven-repository/org/apache/servicecomb/java-chassis-core/1.0.0/java-chassis-core-1.0.0.jar!/microservice.yaml. org.apache.servicecomb.config.ConfigUtil.createLocalConfig(ConfigUtil.java:116)
+[2018-09-06 11:17:06,370/CST][main][INFO] file:/D:/%e7%bb%84%e9%87%8c%e4%bb%bb%e5%8a%a1/new/mmmmmmm/N1N2MessageTransferProvider/target/classes/microservice.yaml. org.apache.servicecomb.config.ConfigUtil.createLocalConfig(ConfigUtil.java:116)
+[2018-09-06 11:17:06,402/CST][main][INFO]Found SPI service org.apache.servicecomb.config.spi.ConfigCenterConfigurationSource, count=0. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:76)
+[2018-09-06 11:17:06,403/CST][main][INFO]Can not find SPI service for org.apache.servicecomb.config.spi.ConfigCenterConfigurationSource org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.getTargetService(SPIServiceUtils.java:107)
+[2018-09-06 11:17:06,404/CST][main][INFO]config center SPI service can not find, skip to load configuration from config center org.apache.servicecomb.config.ConfigUtil.createConfigCenterConfigurationSource(ConfigUtil.java:207)
+[2018-09-06 11:17:06,798/CST][main][INFO]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:155)
+[2018-09-06 11:17:07,618/CST][main][INFO]Found SPI service org.apache.servicecomb.swagger.generator.core.CommonParameterTypeProcessor, count=3. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:76)
+[2018-09-06 11:17:07,618/CST][main][INFO]  0. org.apache.servicecomb.swagger.invocation.generator.InvocationContextProcessor. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-06 11:17:07,619/CST][main][INFO]  1. org.apache.servicecomb.swagger.generator.springmvc.processor.parameter.MultipartFileTypeProcessor. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-06 11:17:07,619/CST][main][INFO]  2. org.apache.servicecomb.swagger.generator.core.processor.parametertype.HttpServletRequestProcessor. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-06 11:17:07,624/CST][main][INFO]Found SPI service org.apache.servicecomb.swagger.generator.core.ResponseTypeProcessor, count=2. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:76)
+[2018-09-06 11:17:07,625/CST][main][INFO]  0. org.apache.servicecomb.swagger.generator.springmvc.processor.response.ResponseEntityProcessor. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-06 11:17:07,625/CST][main][INFO]  1. org.apache.servicecomb.swagger.generator.core.processor.response.CompletableFutureProcessor. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-06 11:17:07,646/CST][main][INFO]Found SPI service org.apache.servicecomb.swagger.generator.core.SwaggerGeneratorContext, count=2. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:76)
+[2018-09-06 11:17:07,646/CST][main][INFO]  0. org.apache.servicecomb.swagger.generator.springmvc.SpringmvcSwaggerGeneratorContext. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-06 11:17:07,646/CST][main][INFO]  1. org.apache.servicecomb.swagger.generator.pojo.PojoSwaggerGeneratorContext. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-06 11:17:07,675/CST][main][INFO]Found SPI service org.apache.servicecomb.swagger.invocation.response.producer.ProducerResponseMapperFactory, count=4. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:76)
+[2018-09-06 11:17:07,676/CST][main][INFO]  0. org.apache.servicecomb.swagger.invocation.response.producer.CseResponseProducerResponseMapperFactory. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-06 11:17:07,676/CST][main][INFO]  1. org.apache.servicecomb.swagger.invocation.response.producer.CompletableFutureProducerResponseMapperFactory. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-06 11:17:07,676/CST][main][INFO]  2. org.apache.servicecomb.swagger.invocation.springmvc.response.SpringmvcProducerResponseMapperFactory. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-06 11:17:07,677/CST][main][INFO]  3. org.apache.servicecomb.swagger.invocation.response.producer.DefaultProducerResponseMapperFactory. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-06 11:17:07,680/CST][main][INFO]Found SPI service org.apache.servicecomb.swagger.invocation.response.consumer.ConsumerResponseMapperFactory, count=4. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:76)
+[2018-09-06 11:17:07,681/CST][main][INFO]  0. org.apache.servicecomb.swagger.invocation.response.consumer.CseResponseConsumerResponseMapperFactory. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-06 11:17:07,681/CST][main][INFO]  1. org.apache.servicecomb.swagger.invocation.response.consumer.CompletableFutureConsumerResponseMapperFactory. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-06 11:17:07,681/CST][main][INFO]  2. org.apache.servicecomb.swagger.invocation.springmvc.response.SpringmvcConsumerResponseMapperFactory. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-06 11:17:07,681/CST][main][INFO]  3. org.apache.servicecomb.swagger.invocation.response.consumer.DefaultConsumerResponseMapperFactory. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-06 11:17:07,740/CST][main][INFO]load microservice config, name=business-service1, paths=[jar:file:/D:/Apache/maven-repository/org/apache/servicecomb/java-chassis-core/1.0.0/java-chassis-core-1.0.0.jar!/microservice.yaml, file:/D:/%e7%bb%84%e9%87%8c%e4%bb%bb%e5%8a%a1/new/mmmmmmm/N1N2MessageTransferProvider/target/classes/microservice.yaml] org.apache.servicecomb.serviceregistry.definition.MicroserviceDefinition.logConfigPath(MicroserviceDefinition.java:142)
+[2018-09-06 11:17:07,785/CST][main][INFO]It is running in the normal mode, a separated service registry is required org.apache.servicecomb.serviceregistry.registry.ServiceRegistryFactory.create(ServiceRegistryFactory.java:81)
+[2018-09-06 11:17:07,800/CST][main][INFO]Found SPI service org.apache.servicecomb.serviceregistry.registry.ServiceRegistryTaskInitializer, count=1. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:76)
+[2018-09-06 11:17:07,800/CST][main][INFO]  0. org.apache.servicecomb.serviceregistry.diagnosis.instance.InstanceCacheCheckTask. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-06 11:17:07,803/CST][main][INFO]microserviceVersionFactory is org.apache.servicecomb.core.definition.PrivateMicroserviceVersionMetaFactory. org.apache.servicecomb.serviceregistry.registry.AbstractServiceRegistry.initAppManager(AbstractServiceRegistry.java:125)
+[2018-09-06 11:17:07,985/CST][main][INFO]add network interface name:eth0,host address:192.168.220.1 org.apache.servicecomb.foundation.common.net.NetUtils.doGetIpv4AddressFromNetworkInterface(NetUtils.java:118)
+[2018-09-06 11:17:08,014/CST][main][INFO]add network interface name:eth3,host address:10.10.28.20 org.apache.servicecomb.foundation.common.net.NetUtils.doGetIpv4AddressFromNetworkInterface(NetUtils.java:118)
+[2018-09-06 11:17:08,029/CST][main][INFO]add network interface name:eth4,host address:192.168.177.1 org.apache.servicecomb.foundation.common.net.NetUtils.doGetIpv4AddressFromNetworkInterface(NetUtils.java:118)
+[2018-09-06 11:17:08,190/CST][main][INFO]add host name from localhost:DESKTOP-RVBA5DD,host address:192.168.220.1 org.apache.servicecomb.foundation.common.net.NetUtils.doGetHostNameAndHostAddress(NetUtils.java:76)
+[2018-09-06 11:17:09,370/CST][main][INFO]executor group 2, thread per group 8. org.apache.servicecomb.core.executor.FixedThreadExecutor.<init>(FixedThreadExecutor.java:56)
+[2018-09-06 11:17:09,543/CST][main][INFO]Found SPI service org.apache.servicecomb.swagger.extend.property.creator.PropertyCreator, count=1. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:76)
+[2018-09-06 11:17:09,543/CST][main][INFO]  0. org.apache.servicecomb.swagger.extend.property.creator.springmvc.MultipartFilePropertyCreator. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-06 11:17:09,648/CST][main][INFO]generate swagger for business/business-service1/checkInformation, swagger: ---
+swagger: "2.0"
+info:
+  version: "1.0.0"
+  title: "swagger definition for com.checkInformation"
+  x-java-interface: "cse.gen.business.business_service1.checkInformation.checkInformationIntf"
+basePath: "/"
+consumes:
+- "application/json"
+produces:
+- "application/json"
+paths:
+  /ue-contexts/id:
+    post:
+      operationId: "check"
+      parameters:
+      - name: "n1_n2_messages"
+        in: "query"
+        required: false
+        type: "string"
+      responses:
+        200:
+          description: "response of 200"
+          schema:
+            type: "object"
+ org.apache.servicecomb.core.definition.schema.ProducerSchemaFactory.createSchema(ProducerSchemaFactory.java:125)
+[2018-09-06 11:17:09,648/CST][main][INFO]register schema business/business-service1/checkInformation org.apache.servicecomb.core.definition.loader.SchemaLoader.registerSchema(SchemaLoader.java:93)
+[2018-09-06 11:17:09,903/CST][main][INFO]create CtClass cse.gen.business.business_service1.checkInformation.checkInformationIntf in classLoader sun.misc.Launcher$AppClassLoader@18b4aac2. org.apache.servicecomb.common.javassist.JavassistUtils.createCtClass(JavassistUtils.java:185)
+[2018-09-06 11:17:09,904/CST][main][INFO]create class cse.gen.business.business_service1.checkInformation.checkInformationIntf in classLoader sun.misc.Launcher$AppClassLoader@18b4aac2. org.apache.servicecomb.common.javassist.JavassistUtils.createClass(JavassistUtils.java:217)
+[2018-09-06 11:17:09,920/CST][main][INFO]Found SPI service org.apache.servicecomb.serviceregistry.discovery.DiscoveryFilter, count=1. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:76)
+[2018-09-06 11:17:09,921/CST][main][INFO]  0. org.apache.servicecomb.core.filter.OperationInstancesDiscoveryFilter. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-06 11:17:09,927/CST][main][INFO]DiscoveryFilter org.apache.servicecomb.core.filter.OperationInstancesDiscoveryFilter, enabled true. org.apache.servicecomb.serviceregistry.discovery.DiscoveryTree.sort(DiscoveryTree.java:104)
+[2018-09-06 11:17:09,928/CST][main][INFO]DiscoveryFilter org.apache.servicecomb.core.filter.EndpointDiscoveryFilter, enabled true. org.apache.servicecomb.serviceregistry.discovery.DiscoveryTree.sort(DiscoveryTree.java:104)
+[2018-09-06 11:17:09,956/CST][main][WARN]Bad practice, low performance, convert from ? to class java.lang.Object org.apache.servicecomb.swagger.invocation.converter.ConverterMgr.findConverter(ConverterMgr.java:98)
+[2018-09-06 11:17:09,963/CST][main][INFO]Found SPI service org.apache.servicecomb.swagger.invocation.extension.ProducerInvokeExtension, count=0. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:76)
+[2018-09-06 11:17:09,980/CST][main][WARN]address /0.0.0.0:8080, auto select a host address to publish 192.168.220.1:8080, maybe not the correct one org.apache.servicecomb.serviceregistry.RegistryUtils.genPublishIpPort(RegistryUtils.java:183)
+[2018-09-06 11:17:09,985/CST][main][INFO]choose org.apache.servicecomb.transport.rest.vertx.VertxRestTransport for rest. org.apache.servicecomb.core.transport.TransportManager.chooseOneTransport(TransportManager.java:84)
+[2018-09-06 11:17:09,986/CST][main][INFO]choose org.apache.servicecomb.transport.highway.HighwayTransport for highway. org.apache.servicecomb.core.transport.TransportManager.chooseOneTransport(TransportManager.java:84)
+[2018-09-06 11:17:09,994/CST][main][INFO]Found SPI service org.apache.servicecomb.common.rest.filter.HttpClientFilter, count=3. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:76)
+[2018-09-06 11:17:09,995/CST][main][INFO]  0. org.apache.servicecomb.provider.springmvc.reference.RestTemplateCopyHeaderFilter. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-06 11:17:09,995/CST][main][INFO]  1. org.apache.servicecomb.common.rest.filter.inner.ClientRestArgsFilter. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-06 11:17:09,995/CST][main][INFO]  2. org.apache.servicecomb.transport.rest.client.http.DefaultHttpClientFilter. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-06 11:17:10,002/CST][main][WARN]keyStore [server.p12] file not exist, please check! org.apache.servicecomb.foundation.vertx.VertxTLSBuilder.buildTCPSSLOptions(VertxTLSBuilder.java:116)
+[2018-09-06 11:17:10,002/CST][main][WARN]trustStore [trust.jks] file not exist, please check! org.apache.servicecomb.foundation.vertx.VertxTLSBuilder.buildTCPSSLOptions(VertxTLSBuilder.java:136)
+[2018-09-06 11:17:10,011/CST][main][WARN]keyStore [server.p12] file not exist, please check! org.apache.servicecomb.foundation.vertx.VertxTLSBuilder.buildTCPSSLOptions(VertxTLSBuilder.java:116)
+[2018-09-06 11:17:10,011/CST][main][WARN]trustStore [trust.jks] file not exist, please check! org.apache.servicecomb.foundation.vertx.VertxTLSBuilder.buildTCPSSLOptions(VertxTLSBuilder.java:136)
+[2018-09-06 11:17:10,413/CST][transport-vert.x-eventloop-thread-4][INFO]Found SPI service org.apache.servicecomb.common.rest.filter.HttpServerFilter, count=2. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:76)
+[2018-09-06 11:17:10,414/CST][transport-vert.x-eventloop-thread-4][INFO]  0. org.apache.servicecomb.common.rest.filter.inner.ServerRestArgsFilter. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-06 11:17:10,414/CST][transport-vert.x-eventloop-thread-4][INFO]  1. org.apache.servicecomb.common.rest.filter.tracing.TracingFilter. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-06 11:17:10,416/CST][transport-vert.x-eventloop-thread-4][INFO]Found SPI service org.apache.servicecomb.transport.rest.vertx.VertxHttpDispatcher, count=1. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:76)
+[2018-09-06 11:17:10,416/CST][transport-vert.x-eventloop-thread-4][INFO]  0. org.apache.servicecomb.transport.rest.vertx.VertxRestDispatcher. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-06 11:17:10,424/CST][transport-vert.x-eventloop-thread-4][INFO]servicecomb.uploads.directory is null, not support upload. org.apache.servicecomb.common.rest.UploadConfig.toMultipartConfigElement(UploadConfig.java:92)
+[2018-09-06 11:17:10,463/CST][transport-vert.x-eventloop-thread-4][INFO]rest listen success. address=0.0.0.0:8080 org.apache.servicecomb.transport.rest.vertx.RestServerVerticle.lambda$startListen$0(RestServerVerticle.java:143)
+[2018-09-06 11:17:10,464/CST][main][INFO]endpoint to publish: rest://192.168.220.1:8080 org.apache.servicecomb.core.transport.TransportManager.init(TransportManager.java:58)
+[2018-09-06 11:17:10,465/CST][main][WARN]keyStore [server.p12] file not exist, please check! org.apache.servicecomb.foundation.vertx.VertxTLSBuilder.buildTCPSSLOptions(VertxTLSBuilder.java:116)
+[2018-09-06 11:17:10,465/CST][main][WARN]trustStore [trust.jks] file not exist, please check! org.apache.servicecomb.foundation.vertx.VertxTLSBuilder.buildTCPSSLOptions(VertxTLSBuilder.java:136)
+[2018-09-06 11:17:10,466/CST][main][WARN]keyStore [server.p12] file not exist, please check! org.apache.servicecomb.foundation.vertx.VertxTLSBuilder.buildTCPSSLOptions(VertxTLSBuilder.java:116)
+[2018-09-06 11:17:10,466/CST][main][WARN]trustStore [trust.jks] file not exist, please check! org.apache.servicecomb.foundation.vertx.VertxTLSBuilder.buildTCPSSLOptions(VertxTLSBuilder.java:136)
+[2018-09-06 11:17:10,481/CST][main][WARN]Service center do not support encoded query, so we use unencoded query, this caused not support chinese/space (and maybe other char) in query value. org.apache.servicecomb.core.transport.AbstractTransport.genAddressWithoutSchemaForOldSC(AbstractTransport.java:129)
+[2018-09-06 11:17:10,484/CST][main][WARN]address /0.0.0.0:7070, auto select a host address to publish 192.168.220.1:7070, maybe not the correct one org.apache.servicecomb.serviceregistry.RegistryUtils.genPublishIpPort(RegistryUtils.java:183)
+[2018-09-06 11:17:10,498/CST][transport-vert.x-eventloop-thread-8][INFO]highway listen success. address=0.0.0.0:7070 org.apache.servicecomb.transport.highway.HighwayServerVerticle.lambda$startListen$0(HighwayServerVerticle.java:73)
+[2018-09-06 11:17:10,499/CST][main][INFO]endpoint to publish: highway://192.168.220.1:7070?login=true org.apache.servicecomb.core.transport.TransportManager.init(TransportManager.java:58)
+[2018-09-06 11:17:10,509/CST][main][INFO]Found SPI service org.apache.servicecomb.common.rest.codec.produce.ProduceProcessor, count=2. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:76)
+[2018-09-06 11:17:10,510/CST][main][INFO]  0. org.apache.servicecomb.common.rest.codec.produce.ProduceJsonProcessor. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-06 11:17:10,510/CST][main][INFO]  1. org.apache.servicecomb.common.rest.codec.produce.ProduceTextPlainProcessor. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-06 11:17:10,521/CST][main][INFO]add schema to service paths. business:business-service1:checkInformation. org.apache.servicecomb.common.rest.locator.ServicePathManager.addSchema(ServicePathManager.java:91)
+[2018-09-06 11:17:10,524/CST][main][INFO]Swagger mapped "{[/ue-contexts/id/], method=[POST], produces=[application/json]}" onto public abstract java.lang.Object cse.gen.business.business_service1.checkInformation.checkInformationIntf.check(java.lang.String) org.apache.servicecomb.common.rest.locator.MicroservicePaths.printPath(MicroservicePaths.java:103)
+[2018-09-06 11:17:10,528/CST][main][INFO]running microservice register task. org.apache.servicecomb.serviceregistry.task.MicroserviceRegisterTask.doRegister(MicroserviceRegisterTask.java:75)
+[2018-09-06 11:17:10,578/CST][registry-vert.x-eventloop-thread-0][WARN]get response for org.apache.servicecomb.serviceregistry.api.response.GetExistenceResponse failed, 400:Bad Request, {"errorCode":"400012","errorMessage":"Micro-service does not exist","detail":"service does not exist."}
+ org.apache.servicecomb.serviceregistry.client.http.ServiceRegistryClientImpl.lambda$null$0(ServiceRegistryClientImpl.java:125)
+[2018-09-06 11:17:10,646/CST][main][INFO]Registry Microservice successfully. id=[57c7cacbb18311e89c67acb57d9c56a1] appId=[business], name=[business-service1], version=[1.0.0], schemaIds=[checkInformation], env=[] org.apache.servicecomb.serviceregistry.task.MicroserviceRegisterTask.doRegister(MicroserviceRegisterTask.java:109)
+[2018-09-06 11:17:10,664/CST][main][INFO]schemaId [checkInformation] exists [true], summary exists [false] org.apache.servicecomb.serviceregistry.task.MicroserviceRegisterTask.registerSchema(MicroserviceRegisterTask.java:194)
+[2018-09-06 11:17:10,674/CST][registry-vert.x-eventloop-thread-0][WARN]get response for org.apache.servicecomb.serviceregistry.api.response.GetSchemaResponse failed, 400:Bad Request, {"errorCode":"400016","errorMessage":"Schema does not exist","detail":"Do not have this schema info."}
+ org.apache.servicecomb.serviceregistry.client.http.ServiceRegistryClientImpl.lambda$null$0(ServiceRegistryClientImpl.java:125)
+[2018-09-06 11:17:10,749/CST][main][INFO]register schema 57c7cacbb18311e89c67acb57d9c56a1/checkInformation success. org.apache.servicecomb.serviceregistry.client.http.ServiceRegistryClientImpl.registerSchema(ServiceRegistryClientImpl.java:334)
+[2018-09-06 11:17:10,762/CST][main][INFO]read MicroserviceRegisterTask status is FINISHED org.apache.servicecomb.serviceregistry.task.ServiceCenterTask.onRegisterTask(ServiceCenterTask.java:51)
+[2018-09-06 11:17:10,763/CST][main][INFO]running microservice instance register task. org.apache.servicecomb.serviceregistry.task.MicroserviceInstanceRegisterTask.doRegister(MicroserviceInstanceRegisterTask.java:59)
+[2018-09-06 11:17:10,796/CST][main][INFO]Register microservice instance success. microserviceId=57c7cacbb18311e89c67acb57d9c56a1 instanceId=57dc8874b18311e89c67acb57d9c56a1 endpoints=[rest://192.168.220.1:8080, highway://192.168.220.1:7070?login=true] lease 120s org.apache.servicecomb.serviceregistry.task.MicroserviceInstanceRegisterTask.doRegister(MicroserviceInstanceRegisterTask.java:77)
+[2018-09-06 11:17:10,798/CST][main][INFO]receive MicroserviceInstanceRegisterTask event, check instance Id... org.apache.servicecomb.core.SCBEngine$1.afterRegistryInstance(SCBEngine.java:152)
+[2018-09-06 11:17:10,799/CST][main][INFO]instance registry succeeds for the first time, will send AFTER_REGISTRY event. org.apache.servicecomb.core.SCBEngine$1.afterRegistryInstance(SCBEngine.java:154)
+[2018-09-06 11:17:10,799/CST][main][INFO]read MicroserviceInstanceRegisterTask status is FINISHED org.apache.servicecomb.serviceregistry.task.ServiceCenterTask.onRegisterTask(ServiceCenterTask.java:51)
+[2018-09-06 11:17:10,954/CST][registry-vert.x-eventloop-thread-2][INFO]watching microservice 57c7cacbb18311e89c67acb57d9c56a1 successfully, the chosen service center address is 127.0.0.1:30100 org.apache.servicecomb.serviceregistry.client.http.ServiceRegistryClientImpl.lambda$watch$8(ServiceRegistryClientImpl.java:584)
+[2018-09-06 11:17:38,576/CST][transport-vert.x-eventloop-thread-4][INFO]Found SPI service javax.ws.rs.core.Response$StatusType, count=0. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:76)
+[2018-09-06 11:17:40,821/CST][Service Center Task][INFO]sc task interval changed from -1 to 30 org.apache.servicecomb.serviceregistry.task.ServiceCenterTaskMonitor.beginCycle(ServiceCenterTaskMonitor.java:39)
+[2018-09-06 11:17:59,914/CST][transport-vert.x-eventloop-thread-4][ERROR]java.io.IOException: 远程主机强迫关闭了一个现有的连接。 io.vertx.core.net.impl.ConnectionBase.handleException(ConnectionBase.java:216)
+[2018-09-06 11:19:05,261/CST][main][ERROR]Can not output merged.log4j.properties,because can not write to directory of file file:/D:/Apache/maven-repository/org/apache/servicecomb/foundation-common/1.0.0/foundation-common-1.0.0.jar!/config/base/log4j.properties org.apache.servicecomb.foundation.common.utils.Log4jUtils.outputFile(Log4jUtils.java:103)
+[2018-09-06 11:19:05,261/CST][main][INFO]Found main class "com.Application". org.apache.servicecomb.foundation.common.utils.JvmUtils.findMainClass(JvmUtils.java:62)
+[2018-09-06 11:19:05,307/CST][main][INFO]Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@59a6e353: startup date [Thu Sep 06 11:19:05 CST 2018]; root of context hierarchy org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:583)
+[2018-09-06 11:19:05,417/CST][main][INFO]Loading XML bean definitions from file [D:\组里任务\new\mmmmmmm\N1N2MessageTransferProvider\target\classes\META-INF\spring\provider.bean.xml] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+[2018-09-06 11:19:07,210/CST][main][INFO]Loading XML bean definitions from URL [jar:file:/D:/Apache/maven-repository/org/apache/servicecomb/java-chassis-core/1.0.0/java-chassis-core-1.0.0.jar!/META-INF/spring/cse.bean.xml] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+[2018-09-06 11:19:08,744/CST][main][INFO]Loading XML bean definitions from URL [jar:file:/D:/Apache/maven-repository/org/apache/servicecomb/foundation-config/1.0.0/foundation-config-1.0.0.jar!/META-INF/spring/cse.bean.xml] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+[2018-09-06 11:19:08,760/CST][main][INFO]Loading XML bean definitions from URL [jar:file:/D:/Apache/maven-repository/org/apache/servicecomb/foundation-vertx/1.0.0/foundation-vertx-1.0.0.jar!/META-INF/spring/cse.bean.xml] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+[2018-09-06 11:19:08,760/CST][main][INFO]Loading XML bean definitions from URL [jar:file:/D:/Apache/maven-repository/org/apache/servicecomb/foundation-common/1.0.0/foundation-common-1.0.0.jar!/META-INF/spring/common.bean.xml] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+[2018-09-06 11:19:09,111/CST][main][INFO]Environment received, will get configurations from [org.springframework.core.env.StandardEnvironment@255640288]. org.apache.servicecomb.config.ConfigurationSpringInitializer.setEnvironment(ConfigurationSpringInitializer.java:59)
+[2018-09-06 11:19:09,144/CST][main][WARN]No URLs will be polled as dynamic configuration sources. com.netflix.config.sources.URLConfigurationSource.<init>(URLConfigurationSource.java:121)
+[2018-09-06 11:19:09,145/CST][main][INFO]To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath. com.netflix.config.sources.URLConfigurationSource.<init>(URLConfigurationSource.java:122)
+[2018-09-06 11:19:09,239/CST][main][INFO]create local config: org.apache.servicecomb.config.ConfigUtil.createLocalConfig(ConfigUtil.java:114)
+[2018-09-06 11:19:09,241/CST][main][INFO] jar:file:/D:/Apache/maven-repository/org/apache/servicecomb/java-chassis-core/1.0.0/java-chassis-core-1.0.0.jar!/microservice.yaml. org.apache.servicecomb.config.ConfigUtil.createLocalConfig(ConfigUtil.java:116)
+[2018-09-06 11:19:09,242/CST][main][INFO] file:/D:/%e7%bb%84%e9%87%8c%e4%bb%bb%e5%8a%a1/new/mmmmmmm/N1N2MessageTransferProvider/target/classes/microservice.yaml. org.apache.servicecomb.config.ConfigUtil.createLocalConfig(ConfigUtil.java:116)
+[2018-09-06 11:19:09,265/CST][main][INFO]Found SPI service org.apache.servicecomb.config.spi.ConfigCenterConfigurationSource, count=0. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:76)
+[2018-09-06 11:19:09,265/CST][main][INFO]Can not find SPI service for org.apache.servicecomb.config.spi.ConfigCenterConfigurationSource org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.getTargetService(SPIServiceUtils.java:107)
+[2018-09-06 11:19:09,265/CST][main][INFO]config center SPI service can not find, skip to load configuration from config center org.apache.servicecomb.config.ConfigUtil.createConfigCenterConfigurationSource(ConfigUtil.java:207)
+[2018-09-06 11:19:09,710/CST][main][INFO]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:155)
+[2018-09-06 11:19:10,520/CST][main][INFO]Found SPI service org.apache.servicecomb.swagger.generator.core.CommonParameterTypeProcessor, count=3. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:76)
+[2018-09-06 11:19:10,520/CST][main][INFO]  0. org.apache.servicecomb.swagger.invocation.generator.InvocationContextProcessor. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-06 11:19:10,520/CST][main][INFO]  1. org.apache.servicecomb.swagger.generator.springmvc.processor.parameter.MultipartFileTypeProcessor. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-06 11:19:10,520/CST][main][INFO]  2. org.apache.servicecomb.swagger.generator.core.processor.parametertype.HttpServletRequestProcessor. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-06 11:19:10,539/CST][main][INFO]Found SPI service org.apache.servicecomb.swagger.generator.core.ResponseTypeProcessor, count=2. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:76)
+[2018-09-06 11:19:10,539/CST][main][INFO]  0. org.apache.servicecomb.swagger.generator.springmvc.processor.response.ResponseEntityProcessor. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-06 11:19:10,539/CST][main][INFO]  1. org.apache.servicecomb.swagger.generator.core.processor.response.CompletableFutureProcessor. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-06 11:19:10,557/CST][main][INFO]Found SPI service org.apache.servicecomb.swagger.generator.core.SwaggerGeneratorContext, count=2. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:76)
+[2018-09-06 11:19:10,557/CST][main][INFO]  0. org.apache.servicecomb.swagger.generator.springmvc.SpringmvcSwaggerGeneratorContext. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-06 11:19:10,557/CST][main][INFO]  1. org.apache.servicecomb.swagger.generator.pojo.PojoSwaggerGeneratorContext. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-06 11:19:10,573/CST][main][INFO]Found SPI service org.apache.servicecomb.swagger.invocation.response.producer.ProducerResponseMapperFactory, count=4. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:76)
+[2018-09-06 11:19:10,573/CST][main][INFO]  0. org.apache.servicecomb.swagger.invocation.response.producer.CseResponseProducerResponseMapperFactory. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-06 11:19:10,573/CST][main][INFO]  1. org.apache.servicecomb.swagger.invocation.response.producer.CompletableFutureProducerResponseMapperFactory. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-06 11:19:10,573/CST][main][INFO]  2. org.apache.servicecomb.swagger.invocation.springmvc.response.SpringmvcProducerResponseMapperFactory. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-06 11:19:10,589/CST][main][INFO]  3. org.apache.servicecomb.swagger.invocation.response.producer.DefaultProducerResponseMapperFactory. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-06 11:19:10,589/CST][main][INFO]Found SPI service org.apache.servicecomb.swagger.invocation.response.consumer.ConsumerResponseMapperFactory, count=4. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:76)
+[2018-09-06 11:19:10,589/CST][main][INFO]  0. org.apache.servicecomb.swagger.invocation.response.consumer.CseResponseConsumerResponseMapperFactory. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-06 11:19:10,589/CST][main][INFO]  1. org.apache.servicecomb.swagger.invocation.response.consumer.CompletableFutureConsumerResponseMapperFactory. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-06 11:19:10,589/CST][main][INFO]  2. org.apache.servicecomb.swagger.invocation.springmvc.response.SpringmvcConsumerResponseMapperFactory. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-06 11:19:10,589/CST][main][INFO]  3. org.apache.servicecomb.swagger.invocation.response.consumer.DefaultConsumerResponseMapperFactory. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-06 11:19:10,652/CST][main][INFO]load microservice config, name=business-service1, paths=[jar:file:/D:/Apache/maven-repository/org/apache/servicecomb/java-chassis-core/1.0.0/java-chassis-core-1.0.0.jar!/microservice.yaml, file:/D:/%e7%bb%84%e9%87%8c%e4%bb%bb%e5%8a%a1/new/mmmmmmm/N1N2MessageTransferProvider/target/classes/microservice.yaml] org.apache.servicecomb.serviceregistry.definition.MicroserviceDefinition.logConfigPath(MicroserviceDefinition.java:142)
+[2018-09-06 11:19:10,695/CST][main][INFO]It is running in the normal mode, a separated service registry is required org.apache.servicecomb.serviceregistry.registry.ServiceRegistryFactory.create(ServiceRegistryFactory.java:81)
+[2018-09-06 11:19:10,695/CST][main][INFO]Found SPI service org.apache.servicecomb.serviceregistry.registry.ServiceRegistryTaskInitializer, count=1. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:76)
+[2018-09-06 11:19:10,711/CST][main][INFO]  0. org.apache.servicecomb.serviceregistry.diagnosis.instance.InstanceCacheCheckTask. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-06 11:19:10,711/CST][main][INFO]microserviceVersionFactory is org.apache.servicecomb.core.definition.PrivateMicroserviceVersionMetaFactory. org.apache.servicecomb.serviceregistry.registry.AbstractServiceRegistry.initAppManager(AbstractServiceRegistry.java:125)
+[2018-09-06 11:19:10,885/CST][main][INFO]add network interface name:eth0,host address:192.168.220.1 org.apache.servicecomb.foundation.common.net.NetUtils.doGetIpv4AddressFromNetworkInterface(NetUtils.java:118)
+[2018-09-06 11:19:10,901/CST][main][INFO]add network interface name:eth3,host address:10.10.28.20 org.apache.servicecomb.foundation.common.net.NetUtils.doGetIpv4AddressFromNetworkInterface(NetUtils.java:118)
+[2018-09-06 11:19:10,901/CST][main][INFO]add network interface name:eth4,host address:192.168.177.1 org.apache.servicecomb.foundation.common.net.NetUtils.doGetIpv4AddressFromNetworkInterface(NetUtils.java:118)
+[2018-09-06 11:19:11,007/CST][main][INFO]add host name from localhost:DESKTOP-RVBA5DD,host address:192.168.220.1 org.apache.servicecomb.foundation.common.net.NetUtils.doGetHostNameAndHostAddress(NetUtils.java:76)
+[2018-09-06 11:19:11,885/CST][main][INFO]executor group 2, thread per group 8. org.apache.servicecomb.core.executor.FixedThreadExecutor.<init>(FixedThreadExecutor.java:56)
+[2018-09-06 11:19:12,038/CST][main][INFO]Found SPI service org.apache.servicecomb.swagger.extend.property.creator.PropertyCreator, count=1. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:76)
+[2018-09-06 11:19:12,038/CST][main][INFO]  0. org.apache.servicecomb.swagger.extend.property.creator.springmvc.MultipartFilePropertyCreator. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-06 11:19:12,085/CST][main][INFO]generate swagger for business/business-service1/checkInformation, swagger: ---
+swagger: "2.0"
+info:
+  version: "1.0.0"
+  title: "swagger definition for com.checkInformation"
+  x-java-interface: "cse.gen.business.business_service1.checkInformation.checkInformationIntf"
+basePath: "/"
+consumes:
+- "application/json"
+produces:
+- "application/json"
+paths:
+  /ue-contexts/id:
+    post:
+      operationId: "check"
+      parameters:
+      - name: "n1_n2_messages"
+        in: "query"
+        required: false
+        type: "string"
+      responses:
+        200:
+          description: "response of 200"
+          schema:
+            type: "object"
+ org.apache.servicecomb.core.definition.schema.ProducerSchemaFactory.createSchema(ProducerSchemaFactory.java:125)
+[2018-09-06 11:19:12,085/CST][main][INFO]register schema business/business-service1/checkInformation org.apache.servicecomb.core.definition.loader.SchemaLoader.registerSchema(SchemaLoader.java:93)
+[2018-09-06 11:19:12,297/CST][main][INFO]create CtClass cse.gen.business.business_service1.checkInformation.checkInformationIntf in classLoader sun.misc.Launcher$AppClassLoader@18b4aac2. org.apache.servicecomb.common.javassist.JavassistUtils.createCtClass(JavassistUtils.java:185)
+[2018-09-06 11:19:12,298/CST][main][INFO]create class cse.gen.business.business_service1.checkInformation.checkInformationIntf in classLoader sun.misc.Launcher$AppClassLoader@18b4aac2. org.apache.servicecomb.common.javassist.JavassistUtils.createClass(JavassistUtils.java:217)
+[2018-09-06 11:19:12,302/CST][main][INFO]Found SPI service org.apache.servicecomb.serviceregistry.discovery.DiscoveryFilter, count=1. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:76)
+[2018-09-06 11:19:12,302/CST][main][INFO]  0. org.apache.servicecomb.core.filter.OperationInstancesDiscoveryFilter. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-06 11:19:12,304/CST][main][INFO]DiscoveryFilter org.apache.servicecomb.core.filter.OperationInstancesDiscoveryFilter, enabled true. org.apache.servicecomb.serviceregistry.discovery.DiscoveryTree.sort(DiscoveryTree.java:104)
+[2018-09-06 11:19:12,304/CST][main][INFO]DiscoveryFilter org.apache.servicecomb.core.filter.EndpointDiscoveryFilter, enabled true. org.apache.servicecomb.serviceregistry.discovery.DiscoveryTree.sort(DiscoveryTree.java:104)
+[2018-09-06 11:19:12,311/CST][main][WARN]Bad practice, low performance, convert from ? to class java.lang.Object org.apache.servicecomb.swagger.invocation.converter.ConverterMgr.findConverter(ConverterMgr.java:98)
+[2018-09-06 11:19:12,313/CST][main][INFO]Found SPI service org.apache.servicecomb.swagger.invocation.extension.ProducerInvokeExtension, count=0. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:76)
+[2018-09-06 11:19:12,318/CST][main][WARN]address /0.0.0.0:8080, auto select a host address to publish 192.168.220.1:8080, maybe not the correct one org.apache.servicecomb.serviceregistry.RegistryUtils.genPublishIpPort(RegistryUtils.java:183)
+[2018-09-06 11:19:12,320/CST][main][INFO]choose org.apache.servicecomb.transport.rest.vertx.VertxRestTransport for rest. org.apache.servicecomb.core.transport.TransportManager.chooseOneTransport(TransportManager.java:84)
+[2018-09-06 11:19:12,321/CST][main][INFO]choose org.apache.servicecomb.transport.highway.HighwayTransport for highway. org.apache.servicecomb.core.transport.TransportManager.chooseOneTransport(TransportManager.java:84)
+[2018-09-06 11:19:12,326/CST][main][INFO]Found SPI service org.apache.servicecomb.common.rest.filter.HttpClientFilter, count=3. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:76)
+[2018-09-06 11:19:12,327/CST][main][INFO]  0. org.apache.servicecomb.provider.springmvc.reference.RestTemplateCopyHeaderFilter. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-06 11:19:12,327/CST][main][INFO]  1. org.apache.servicecomb.common.rest.filter.inner.ClientRestArgsFilter. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-06 11:19:12,327/CST][main][INFO]  2. org.apache.servicecomb.transport.rest.client.http.DefaultHttpClientFilter. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-06 11:19:12,330/CST][main][WARN]keyStore [server.p12] file not exist, please check! org.apache.servicecomb.foundation.vertx.VertxTLSBuilder.buildTCPSSLOptions(VertxTLSBuilder.java:116)
+[2018-09-06 11:19:12,330/CST][main][WARN]trustStore [trust.jks] file not exist, please check! org.apache.servicecomb.foundation.vertx.VertxTLSBuilder.buildTCPSSLOptions(VertxTLSBuilder.java:136)
+[2018-09-06 11:19:12,335/CST][main][WARN]keyStore [server.p12] file not exist, please check! org.apache.servicecomb.foundation.vertx.VertxTLSBuilder.buildTCPSSLOptions(VertxTLSBuilder.java:116)
+[2018-09-06 11:19:12,335/CST][main][WARN]trustStore [trust.jks] file not exist, please check! org.apache.servicecomb.foundation.vertx.VertxTLSBuilder.buildTCPSSLOptions(VertxTLSBuilder.java:136)
+[2018-09-06 11:19:12,632/CST][transport-vert.x-eventloop-thread-4][INFO]Found SPI service org.apache.servicecomb.common.rest.filter.HttpServerFilter, count=2. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:76)
+[2018-09-06 11:19:12,632/CST][transport-vert.x-eventloop-thread-4][INFO]  0. org.apache.servicecomb.common.rest.filter.inner.ServerRestArgsFilter. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-06 11:19:12,632/CST][transport-vert.x-eventloop-thread-4][INFO]  1. org.apache.servicecomb.common.rest.filter.tracing.TracingFilter. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-06 11:19:12,634/CST][transport-vert.x-eventloop-thread-4][INFO]Found SPI service org.apache.servicecomb.transport.rest.vertx.VertxHttpDispatcher, count=1. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:76)
+[2018-09-06 11:19:12,634/CST][transport-vert.x-eventloop-thread-4][INFO]  0. org.apache.servicecomb.transport.rest.vertx.VertxRestDispatcher. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-06 11:19:12,637/CST][transport-vert.x-eventloop-thread-4][INFO]servicecomb.uploads.directory is null, not support upload. org.apache.servicecomb.common.rest.UploadConfig.toMultipartConfigElement(UploadConfig.java:92)
+[2018-09-06 11:19:12,662/CST][transport-vert.x-eventloop-thread-4][INFO]rest listen success. address=0.0.0.0:8080 org.apache.servicecomb.transport.rest.vertx.RestServerVerticle.lambda$startListen$0(RestServerVerticle.java:143)
+[2018-09-06 11:19:12,662/CST][main][INFO]endpoint to publish: rest://192.168.220.1:8080 org.apache.servicecomb.core.transport.TransportManager.init(TransportManager.java:58)
+[2018-09-06 11:19:12,663/CST][main][WARN]keyStore [server.p12] file not exist, please check! org.apache.servicecomb.foundation.vertx.VertxTLSBuilder.buildTCPSSLOptions(VertxTLSBuilder.java:116)
+[2018-09-06 11:19:12,664/CST][main][WARN]trustStore [trust.jks] file not exist, please check! org.apache.servicecomb.foundation.vertx.VertxTLSBuilder.buildTCPSSLOptions(VertxTLSBuilder.java:136)
+[2018-09-06 11:19:12,664/CST][main][WARN]keyStore [server.p12] file not exist, please check! org.apache.servicecomb.foundation.vertx.VertxTLSBuilder.buildTCPSSLOptions(VertxTLSBuilder.java:116)
+[2018-09-06 11:19:12,664/CST][main][WARN]trustStore [trust.jks] file not exist, please check! org.apache.servicecomb.foundation.vertx.VertxTLSBuilder.buildTCPSSLOptions(VertxTLSBuilder.java:136)
+[2018-09-06 11:19:12,673/CST][main][WARN]Service center do not support encoded query, so we use unencoded query, this caused not support chinese/space (and maybe other char) in query value. org.apache.servicecomb.core.transport.AbstractTransport.genAddressWithoutSchemaForOldSC(AbstractTransport.java:129)
+[2018-09-06 11:19:12,675/CST][main][WARN]address /0.0.0.0:7070, auto select a host address to publish 192.168.220.1:7070, maybe not the correct one org.apache.servicecomb.serviceregistry.RegistryUtils.genPublishIpPort(RegistryUtils.java:183)
+[2018-09-06 11:19:12,684/CST][transport-vert.x-eventloop-thread-8][INFO]highway listen success. address=0.0.0.0:7070 org.apache.servicecomb.transport.highway.HighwayServerVerticle.lambda$startListen$0(HighwayServerVerticle.java:73)
+[2018-09-06 11:19:12,685/CST][main][INFO]endpoint to publish: highway://192.168.220.1:7070?login=true org.apache.servicecomb.core.transport.TransportManager.init(TransportManager.java:58)
+[2018-09-06 11:19:12,688/CST][main][INFO]Found SPI service org.apache.servicecomb.common.rest.codec.produce.ProduceProcessor, count=2. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:76)
+[2018-09-06 11:19:12,689/CST][main][INFO]  0. org.apache.servicecomb.common.rest.codec.produce.ProduceJsonProcessor. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-06 11:19:12,689/CST][main][INFO]  1. org.apache.servicecomb.common.rest.codec.produce.ProduceTextPlainProcessor. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-06 11:19:12,696/CST][main][INFO]add schema to service paths. business:business-service1:checkInformation. org.apache.servicecomb.common.rest.locator.ServicePathManager.addSchema(ServicePathManager.java:91)
+[2018-09-06 11:19:12,697/CST][main][INFO]Swagger mapped "{[/ue-contexts/id/], method=[POST], produces=[application/json]}" onto public abstract java.lang.Object cse.gen.business.business_service1.checkInformation.checkInformationIntf.check(java.lang.String) org.apache.servicecomb.common.rest.locator.MicroservicePaths.printPath(MicroservicePaths.java:103)
+[2018-09-06 11:19:12,700/CST][main][INFO]running microservice register task. org.apache.servicecomb.serviceregistry.task.MicroserviceRegisterTask.doRegister(MicroserviceRegisterTask.java:75)
+[2018-09-06 11:19:12,703/CST][main][INFO]Microservice exists in service center, no need to register. id=[57c7cacbb18311e89c67acb57d9c56a1] appId=[business], name=[business-service1], version=[1.0.0], env=[] org.apache.servicecomb.serviceregistry.task.MicroserviceRegisterTask.doRegister(MicroserviceRegisterTask.java:83)
+[2018-09-06 11:19:12,716/CST][main][INFO]SchemaIds are equals to service center. serviceId=[57c7cacbb18311e89c67acb57d9c56a1], appId=[business], name=[business-service1], version=[1.0.0], env=[], schemaIds=[checkInformation] org.apache.servicecomb.serviceregistry.task.MicroserviceRegisterTask.checkSchemaIdSet(MicroserviceRegisterTask.java:149)
+[2018-09-06 11:19:12,719/CST][main][INFO]schemaId [checkInformation] exists [true], summary exists [true] org.apache.servicecomb.serviceregistry.task.MicroserviceRegisterTask.registerSchema(MicroserviceRegisterTask.java:194)
+[2018-09-06 11:19:12,727/CST][main][INFO]read MicroserviceRegisterTask status is FINISHED org.apache.servicecomb.serviceregistry.task.ServiceCenterTask.onRegisterTask(ServiceCenterTask.java:51)
+[2018-09-06 11:19:12,727/CST][main][INFO]running microservice instance register task. org.apache.servicecomb.serviceregistry.task.MicroserviceInstanceRegisterTask.doRegister(MicroserviceInstanceRegisterTask.java:59)
+[2018-09-06 11:19:12,842/CST][main][INFO]Register microservice instance success. microserviceId=57c7cacbb18311e89c67acb57d9c56a1 instanceId=a08fa87bb18311e89c67acb57d9c56a1 endpoints=[rest://192.168.220.1:8080, highway://192.168.220.1:7070?login=true] lease 120s org.apache.servicecomb.serviceregistry.task.MicroserviceInstanceRegisterTask.doRegister(MicroserviceInstanceRegisterTask.java:77)
+[2018-09-06 11:19:12,843/CST][main][INFO]receive MicroserviceInstanceRegisterTask event, check instance Id... org.apache.servicecomb.core.SCBEngine$1.afterRegistryInstance(SCBEngine.java:152)
+[2018-09-06 11:19:12,843/CST][main][INFO]instance registry succeeds for the first time, will send AFTER_REGISTRY event. org.apache.servicecomb.core.SCBEngine$1.afterRegistryInstance(SCBEngine.java:154)
+[2018-09-06 11:19:12,844/CST][main][INFO]read MicroserviceInstanceRegisterTask status is FINISHED org.apache.servicecomb.serviceregistry.task.ServiceCenterTask.onRegisterTask(ServiceCenterTask.java:51)
+[2018-09-06 11:19:12,895/CST][registry-vert.x-eventloop-thread-2][INFO]watching microservice 57c7cacbb18311e89c67acb57d9c56a1 successfully, the chosen service center address is 127.0.0.1:30100 org.apache.servicecomb.serviceregistry.client.http.ServiceRegistryClientImpl.lambda$watch$8(ServiceRegistryClientImpl.java:584)
+[2018-09-06 11:19:42,859/CST][Service Center Task][INFO]sc task interval changed from -1 to 30 org.apache.servicecomb.serviceregistry.task.ServiceCenterTaskMonitor.beginCycle(ServiceCenterTaskMonitor.java:39)
+[2018-09-06 11:19:43,130/CST][transport-vert.x-eventloop-thread-4][INFO]Found SPI service javax.ws.rs.core.Response$StatusType, count=0. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:76)
+[2018-09-06 11:19:43,156/CST][pool-1-thread-1][INFO]Found SPI service org.apache.servicecomb.swagger.invocation.exception.ExceptionToResponseConverter, count=2. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:76)
+[2018-09-06 11:19:43,156/CST][pool-1-thread-1][INFO]  0. org.apache.servicecomb.swagger.invocation.exception.InvocationExceptionToResponseConverter. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-06 11:19:43,157/CST][pool-1-thread-1][INFO]  1. org.apache.servicecomb.swagger.invocation.exception.DefaultExceptionToResponseConverter. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-06 11:19:43,158/CST][pool-1-thread-1][ERROR]invoke failed, invocation=PRODUCER rest business-service1.checkInformation.check org.apache.servicecomb.swagger.invocation.exception.DefaultExceptionToResponseConverter.convert(DefaultExceptionToResponseConverter.java:35)
+com.Exception.ConflictException
+	at com.checkInformation.check(checkInformation.java:42)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.servicecomb.swagger.engine.SwaggerProducerOperation.doInvoke(SwaggerProducerOperation.java:160)
+	at org.apache.servicecomb.swagger.engine.SwaggerProducerOperation.syncInvoke(SwaggerProducerOperation.java:148)
+	at org.apache.servicecomb.swagger.engine.SwaggerProducerOperation.invoke(SwaggerProducerOperation.java:115)
+	at org.apache.servicecomb.core.handler.impl.ProducerOperationHandler.handle(ProducerOperationHandler.java:40)
+	at org.apache.servicecomb.core.Invocation.next(Invocation.java:151)
+	at org.apache.servicecomb.common.rest.AbstractRestInvocation.doInvoke(AbstractRestInvocation.java:187)
+	at org.apache.servicecomb.common.rest.AbstractRestInvocation.invoke(AbstractRestInvocation.java:164)
+	at org.apache.servicecomb.common.rest.AbstractRestInvocation.runOnExecutor(AbstractRestInvocation.java:148)
+	at org.apache.servicecomb.common.rest.AbstractRestInvocation.lambda$scheduleInvocation$0(AbstractRestInvocation.java:136)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-09-06 14:35:00,734/CST][main][ERROR]Can not output merged.log4j.properties,because can not write to directory of file file:/D:/Apache/maven-repository/org/apache/servicecomb/foundation-common/1.0.0/foundation-common-1.0.0.jar!/config/base/log4j.properties org.apache.servicecomb.foundation.common.utils.Log4jUtils.outputFile(Log4jUtils.java:103)
+[2018-09-06 14:35:00,744/CST][main][INFO]Found main class "com.Application". org.apache.servicecomb.foundation.common.utils.JvmUtils.findMainClass(JvmUtils.java:62)
+[2018-09-06 14:35:00,779/CST][main][INFO]Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@59a6e353: startup date [Thu Sep 06 14:35:00 CST 2018]; root of context hierarchy org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:583)
+[2018-09-06 14:35:00,930/CST][main][INFO]Loading XML bean definitions from file [D:\组里任务\new\mmmmmmm\N1N2MessageTransferProvider\target\classes\META-INF\spring\provider.bean.xml] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+[2018-09-06 14:35:02,917/CST][main][INFO]Loading XML bean definitions from URL [jar:file:/D:/Apache/maven-repository/org/apache/servicecomb/java-chassis-core/1.0.0/java-chassis-core-1.0.0.jar!/META-INF/spring/cse.bean.xml] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+[2018-09-06 14:35:04,272/CST][main][INFO]Loading XML bean definitions from URL [jar:file:/D:/Apache/maven-repository/org/apache/servicecomb/foundation-config/1.0.0/foundation-config-1.0.0.jar!/META-INF/spring/cse.bean.xml] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+[2018-09-06 14:35:04,287/CST][main][INFO]Loading XML bean definitions from URL [jar:file:/D:/Apache/maven-repository/org/apache/servicecomb/foundation-vertx/1.0.0/foundation-vertx-1.0.0.jar!/META-INF/spring/cse.bean.xml] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+[2018-09-06 14:35:04,298/CST][main][INFO]Loading XML bean definitions from URL [jar:file:/D:/Apache/maven-repository/org/apache/servicecomb/foundation-common/1.0.0/foundation-common-1.0.0.jar!/META-INF/spring/common.bean.xml] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+[2018-09-06 14:35:04,569/CST][main][INFO]Environment received, will get configurations from [org.springframework.core.env.StandardEnvironment@1634572909]. org.apache.servicecomb.config.ConfigurationSpringInitializer.setEnvironment(ConfigurationSpringInitializer.java:59)
+[2018-09-06 14:35:04,595/CST][main][WARN]No URLs will be polled as dynamic configuration sources. com.netflix.config.sources.URLConfigurationSource.<init>(URLConfigurationSource.java:121)
+[2018-09-06 14:35:04,596/CST][main][INFO]To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath. com.netflix.config.sources.URLConfigurationSource.<init>(URLConfigurationSource.java:122)
+[2018-09-06 14:35:04,665/CST][main][INFO]create local config: org.apache.servicecomb.config.ConfigUtil.createLocalConfig(ConfigUtil.java:114)
+[2018-09-06 14:35:04,666/CST][main][INFO] jar:file:/D:/Apache/maven-repository/org/apache/servicecomb/java-chassis-core/1.0.0/java-chassis-core-1.0.0.jar!/microservice.yaml. org.apache.servicecomb.config.ConfigUtil.createLocalConfig(ConfigUtil.java:116)
+[2018-09-06 14:35:04,666/CST][main][INFO] file:/D:/%e7%bb%84%e9%87%8c%e4%bb%bb%e5%8a%a1/new/mmmmmmm/N1N2MessageTransferProvider/target/classes/microservice.yaml. org.apache.servicecomb.config.ConfigUtil.createLocalConfig(ConfigUtil.java:116)
+[2018-09-06 14:35:04,689/CST][main][INFO]Found SPI service org.apache.servicecomb.config.spi.ConfigCenterConfigurationSource, count=0. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:76)
+[2018-09-06 14:35:04,690/CST][main][INFO]Can not find SPI service for org.apache.servicecomb.config.spi.ConfigCenterConfigurationSource org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.getTargetService(SPIServiceUtils.java:107)
+[2018-09-06 14:35:04,691/CST][main][INFO]config center SPI service can not find, skip to load configuration from config center org.apache.servicecomb.config.ConfigUtil.createConfigCenterConfigurationSource(ConfigUtil.java:207)
+[2018-09-06 14:35:04,972/CST][main][INFO]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:155)
+[2018-09-06 14:35:05,671/CST][main][INFO]Found SPI service org.apache.servicecomb.swagger.generator.core.CommonParameterTypeProcessor, count=3. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:76)
+[2018-09-06 14:35:05,671/CST][main][INFO]  0. org.apache.servicecomb.swagger.invocation.generator.InvocationContextProcessor. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-06 14:35:05,672/CST][main][INFO]  1. org.apache.servicecomb.swagger.generator.springmvc.processor.parameter.MultipartFileTypeProcessor. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-06 14:35:05,672/CST][main][INFO]  2. org.apache.servicecomb.swagger.generator.core.processor.parametertype.HttpServletRequestProcessor. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-06 14:35:05,676/CST][main][INFO]Found SPI service org.apache.servicecomb.swagger.generator.core.ResponseTypeProcessor, count=2. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:76)
+[2018-09-06 14:35:05,677/CST][main][INFO]  0. org.apache.servicecomb.swagger.generator.springmvc.processor.response.ResponseEntityProcessor. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-06 14:35:05,677/CST][main][INFO]  1. org.apache.servicecomb.swagger.generator.core.processor.response.CompletableFutureProcessor. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-06 14:35:05,696/CST][main][INFO]Found SPI service org.apache.servicecomb.swagger.generator.core.SwaggerGeneratorContext, count=2. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:76)
+[2018-09-06 14:35:05,697/CST][main][INFO]  0. org.apache.servicecomb.swagger.generator.springmvc.SpringmvcSwaggerGeneratorContext. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-06 14:35:05,697/CST][main][INFO]  1. org.apache.servicecomb.swagger.generator.pojo.PojoSwaggerGeneratorContext. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-06 14:35:05,724/CST][main][INFO]Found SPI service org.apache.servicecomb.swagger.invocation.response.producer.ProducerResponseMapperFactory, count=4. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:76)
+[2018-09-06 14:35:05,725/CST][main][INFO]  0. org.apache.servicecomb.swagger.invocation.response.producer.CseResponseProducerResponseMapperFactory. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-06 14:35:05,725/CST][main][INFO]  1. org.apache.servicecomb.swagger.invocation.response.producer.CompletableFutureProducerResponseMapperFactory. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-06 14:35:05,725/CST][main][INFO]  2. org.apache.servicecomb.swagger.invocation.springmvc.response.SpringmvcProducerResponseMapperFactory. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-06 14:35:05,725/CST][main][INFO]  3. org.apache.servicecomb.swagger.invocation.response.producer.DefaultProducerResponseMapperFactory. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-06 14:35:05,729/CST][main][INFO]Found SPI service org.apache.servicecomb.swagger.invocation.response.consumer.ConsumerResponseMapperFactory, count=4. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:76)
+[2018-09-06 14:35:05,729/CST][main][INFO]  0. org.apache.servicecomb.swagger.invocation.response.consumer.CseResponseConsumerResponseMapperFactory. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-06 14:35:05,729/CST][main][INFO]  1. org.apache.servicecomb.swagger.invocation.response.consumer.CompletableFutureConsumerResponseMapperFactory. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-06 14:35:05,730/CST][main][INFO]  2. org.apache.servicecomb.swagger.invocation.springmvc.response.SpringmvcConsumerResponseMapperFactory. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-06 14:35:05,730/CST][main][INFO]  3. org.apache.servicecomb.swagger.invocation.response.consumer.DefaultConsumerResponseMapperFactory. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-06 14:35:05,785/CST][main][INFO]load microservice config, name=business-service1, paths=[jar:file:/D:/Apache/maven-repository/org/apache/servicecomb/java-chassis-core/1.0.0/java-chassis-core-1.0.0.jar!/microservice.yaml, file:/D:/%e7%bb%84%e9%87%8c%e4%bb%bb%e5%8a%a1/new/mmmmmmm/N1N2MessageTransferProvider/target/classes/microservice.yaml] org.apache.servicecomb.serviceregistry.definition.MicroserviceDefinition.logConfigPath(MicroserviceDefinition.java:142)
+[2018-09-06 14:35:05,825/CST][main][INFO]It is running in the normal mode, a separated service registry is required org.apache.servicecomb.serviceregistry.registry.ServiceRegistryFactory.create(ServiceRegistryFactory.java:81)
+[2018-09-06 14:35:05,840/CST][main][INFO]Found SPI service org.apache.servicecomb.serviceregistry.registry.ServiceRegistryTaskInitializer, count=1. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:76)
+[2018-09-06 14:35:05,840/CST][main][INFO]  0. org.apache.servicecomb.serviceregistry.diagnosis.instance.InstanceCacheCheckTask. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-06 14:35:05,843/CST][main][INFO]microserviceVersionFactory is org.apache.servicecomb.core.definition.PrivateMicroserviceVersionMetaFactory. org.apache.servicecomb.serviceregistry.registry.AbstractServiceRegistry.initAppManager(AbstractServiceRegistry.java:125)
+[2018-09-06 14:35:06,005/CST][main][INFO]add network interface name:eth0,host address:192.168.220.1 org.apache.servicecomb.foundation.common.net.NetUtils.doGetIpv4AddressFromNetworkInterface(NetUtils.java:118)
+[2018-09-06 14:35:06,022/CST][main][INFO]add network interface name:eth3,host address:10.10.28.20 org.apache.servicecomb.foundation.common.net.NetUtils.doGetIpv4AddressFromNetworkInterface(NetUtils.java:118)
+[2018-09-06 14:35:06,028/CST][main][INFO]add network interface name:eth4,host address:192.168.177.1 org.apache.servicecomb.foundation.common.net.NetUtils.doGetIpv4AddressFromNetworkInterface(NetUtils.java:118)
+[2018-09-06 14:35:06,131/CST][main][INFO]add host name from localhost:DESKTOP-RVBA5DD,host address:10.10.28.20 org.apache.servicecomb.foundation.common.net.NetUtils.doGetHostNameAndHostAddress(NetUtils.java:76)
+[2018-09-06 14:35:07,026/CST][main][INFO]executor group 2, thread per group 8. org.apache.servicecomb.core.executor.FixedThreadExecutor.<init>(FixedThreadExecutor.java:56)
+[2018-09-06 14:35:07,176/CST][main][INFO]Found SPI service org.apache.servicecomb.swagger.extend.property.creator.PropertyCreator, count=1. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:76)
+[2018-09-06 14:35:07,176/CST][main][INFO]  0. org.apache.servicecomb.swagger.extend.property.creator.springmvc.MultipartFilePropertyCreator. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-06 14:35:07,257/CST][main][INFO]generate swagger for business/business-service1/checkInformation, swagger: ---
+swagger: "2.0"
+info:
+  version: "1.0.0"
+  title: "swagger definition for com.checkInformation"
+  x-java-interface: "cse.gen.business.business_service1.checkInformation.checkInformationIntf"
+basePath: "/"
+consumes:
+- "application/json"
+produces:
+- "application/json"
+paths:
+  /ue-contexts/id:
+    post:
+      operationId: "check"
+      parameters:
+      - name: "n1_n2_messages"
+        in: "query"
+        required: false
+        type: "string"
+      responses:
+        200:
+          description: "initial success"
+          schema:
+            $ref: "#/definitions/N1N2MessageTransferRspData"
+        202:
+          description: "messsage accept"
+          schema:
+            $ref: "#/definitions/N1N2MessageTransferRspData"
+        307:
+          description: "temporary redirect"
+          schema:
+            $ref: "#/definitions/MultiResponse300"
+        404:
+          description: "Not Found"
+          schema:
+            $ref: "#/definitions/MultiResponse400"
+        409:
+          description: "Confilct"
+          schema:
+            $ref: "#/definitions/MultiResponse400"
+        504:
+          description: "GateWay Time out"
+          schema:
+            $ref: "#/definitions/MultiResponse500"
+definitions:
+  N1N2MessageTransferRspData:
+    type: "object"
+    properties:
+      cause:
+        type: "string"
+        enum:
+        - "ATTEMPTING_TO_REACH_UE"
+        - "N1_N2_TRANSFER_INITIATED"
+        - "WAITING_FOR_ASYNCHRONOUS_TRANSFER"
+        x-java-class: "com.type.N1N2MessageTransferCause"
+      supportedFeatures:
+        type: "string"
+    x-java-class: "com.type.N1N2MessageTransferRspData"
+  MultiResponse300:
+    type: "object"
+    properties:
+      message:
+        type: "string"
+      code:
+        type: "integer"
+        format: "int32"
+    x-java-class: "com.Response.MultiResponse300"
+  MultiResponse400:
+    type: "object"
+    properties:
+      code:
+        type: "integer"
+        format: "int32"
+      message:
+        type: "string"
+    x-java-class: "com.Response.MultiResponse400"
+  MultiResponse500:
+    type: "object"
+    properties:
+      message:
+        type: "string"
+      code:
+        type: "integer"
+        format: "int32"
+    x-java-class: "com.Response.MultiResponse500"
+ org.apache.servicecomb.core.definition.schema.ProducerSchemaFactory.createSchema(ProducerSchemaFactory.java:125)
+[2018-09-06 14:35:07,257/CST][main][INFO]register schema business/business-service1/checkInformation org.apache.servicecomb.core.definition.loader.SchemaLoader.registerSchema(SchemaLoader.java:93)
+[2018-09-06 14:35:07,425/CST][main][INFO]create CtClass cse.gen.business.business_service1.checkInformation.checkInformationIntf in classLoader sun.misc.Launcher$AppClassLoader@18b4aac2. org.apache.servicecomb.common.javassist.JavassistUtils.createCtClass(JavassistUtils.java:185)
+[2018-09-06 14:35:07,425/CST][main][INFO]create class cse.gen.business.business_service1.checkInformation.checkInformationIntf in classLoader sun.misc.Launcher$AppClassLoader@18b4aac2. org.apache.servicecomb.common.javassist.JavassistUtils.createClass(JavassistUtils.java:217)
+[2018-09-06 14:35:07,430/CST][main][INFO]Found SPI service org.apache.servicecomb.serviceregistry.discovery.DiscoveryFilter, count=1. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:76)
+[2018-09-06 14:35:07,431/CST][main][INFO]  0. org.apache.servicecomb.core.filter.OperationInstancesDiscoveryFilter. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-06 14:35:07,432/CST][main][INFO]DiscoveryFilter org.apache.servicecomb.core.filter.OperationInstancesDiscoveryFilter, enabled true. org.apache.servicecomb.serviceregistry.discovery.DiscoveryTree.sort(DiscoveryTree.java:104)
+[2018-09-06 14:35:07,433/CST][main][INFO]DiscoveryFilter org.apache.servicecomb.core.filter.EndpointDiscoveryFilter, enabled true. org.apache.servicecomb.serviceregistry.discovery.DiscoveryTree.sort(DiscoveryTree.java:104)
+[2018-09-06 14:35:07,441/CST][main][WARN]Bad practice, low performance, convert from ? to class com.type.N1N2MessageTransferRspData org.apache.servicecomb.swagger.invocation.converter.ConverterMgr.findConverter(ConverterMgr.java:98)
+[2018-09-06 14:35:07,443/CST][main][INFO]Found SPI service org.apache.servicecomb.swagger.invocation.extension.ProducerInvokeExtension, count=0. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:76)
+[2018-09-06 14:35:07,453/CST][main][WARN]address /0.0.0.0:8080, auto select a host address to publish 10.10.28.20:8080, maybe not the correct one org.apache.servicecomb.serviceregistry.RegistryUtils.genPublishIpPort(RegistryUtils.java:183)
+[2018-09-06 14:35:07,456/CST][main][INFO]choose org.apache.servicecomb.transport.rest.vertx.VertxRestTransport for rest. org.apache.servicecomb.core.transport.TransportManager.chooseOneTransport(TransportManager.java:84)
+[2018-09-06 14:35:07,456/CST][main][INFO]choose org.apache.servicecomb.transport.highway.HighwayTransport for highway. org.apache.servicecomb.core.transport.TransportManager.chooseOneTransport(TransportManager.java:84)
+[2018-09-06 14:35:07,464/CST][main][INFO]Found SPI service org.apache.servicecomb.common.rest.filter.HttpClientFilter, count=3. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:76)
+[2018-09-06 14:35:07,465/CST][main][INFO]  0. org.apache.servicecomb.provider.springmvc.reference.RestTemplateCopyHeaderFilter. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-06 14:35:07,466/CST][main][INFO]  1. org.apache.servicecomb.common.rest.filter.inner.ClientRestArgsFilter. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-06 14:35:07,466/CST][main][INFO]  2. org.apache.servicecomb.transport.rest.client.http.DefaultHttpClientFilter. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-06 14:35:07,471/CST][main][WARN]keyStore [server.p12] file not exist, please check! org.apache.servicecomb.foundation.vertx.VertxTLSBuilder.buildTCPSSLOptions(VertxTLSBuilder.java:116)
+[2018-09-06 14:35:07,472/CST][main][WARN]trustStore [trust.jks] file not exist, please check! org.apache.servicecomb.foundation.vertx.VertxTLSBuilder.buildTCPSSLOptions(VertxTLSBuilder.java:136)
+[2018-09-06 14:35:07,481/CST][main][WARN]keyStore [server.p12] file not exist, please check! org.apache.servicecomb.foundation.vertx.VertxTLSBuilder.buildTCPSSLOptions(VertxTLSBuilder.java:116)
+[2018-09-06 14:35:07,483/CST][main][WARN]trustStore [trust.jks] file not exist, please check! org.apache.servicecomb.foundation.vertx.VertxTLSBuilder.buildTCPSSLOptions(VertxTLSBuilder.java:136)
+[2018-09-06 14:35:08,490/CST][transport-vert.x-eventloop-thread-4][INFO]Found SPI service org.apache.servicecomb.common.rest.filter.HttpServerFilter, count=2. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:76)
+[2018-09-06 14:35:08,490/CST][transport-vert.x-eventloop-thread-4][INFO]  0. org.apache.servicecomb.common.rest.filter.inner.ServerRestArgsFilter. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-06 14:35:08,490/CST][transport-vert.x-eventloop-thread-4][INFO]  1. org.apache.servicecomb.common.rest.filter.tracing.TracingFilter. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-06 14:35:08,492/CST][transport-vert.x-eventloop-thread-4][INFO]Found SPI service org.apache.servicecomb.transport.rest.vertx.VertxHttpDispatcher, count=1. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:76)
+[2018-09-06 14:35:08,492/CST][transport-vert.x-eventloop-thread-4][INFO]  0. org.apache.servicecomb.transport.rest.vertx.VertxRestDispatcher. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-06 14:35:08,495/CST][transport-vert.x-eventloop-thread-4][INFO]servicecomb.uploads.directory is null, not support upload. org.apache.servicecomb.common.rest.UploadConfig.toMultipartConfigElement(UploadConfig.java:92)
+[2018-09-06 14:35:08,522/CST][transport-vert.x-eventloop-thread-4][INFO]rest listen success. address=0.0.0.0:8080 org.apache.servicecomb.transport.rest.vertx.RestServerVerticle.lambda$startListen$0(RestServerVerticle.java:143)
+[2018-09-06 14:35:08,523/CST][main][INFO]endpoint to publish: rest://10.10.28.20:8080 org.apache.servicecomb.core.transport.TransportManager.init(TransportManager.java:58)
+[2018-09-06 14:35:08,524/CST][main][WARN]keyStore [server.p12] file not exist, please check! org.apache.servicecomb.foundation.vertx.VertxTLSBuilder.buildTCPSSLOptions(VertxTLSBuilder.java:116)
+[2018-09-06 14:35:08,524/CST][main][WARN]trustStore [trust.jks] file not exist, please check! org.apache.servicecomb.foundation.vertx.VertxTLSBuilder.buildTCPSSLOptions(VertxTLSBuilder.java:136)
+[2018-09-06 14:35:08,525/CST][main][WARN]keyStore [server.p12] file not exist, please check! org.apache.servicecomb.foundation.vertx.VertxTLSBuilder.buildTCPSSLOptions(VertxTLSBuilder.java:116)
+[2018-09-06 14:35:08,525/CST][main][WARN]trustStore [trust.jks] file not exist, please check! org.apache.servicecomb.foundation.vertx.VertxTLSBuilder.buildTCPSSLOptions(VertxTLSBuilder.java:136)
+[2018-09-06 14:35:08,535/CST][main][WARN]Service center do not support encoded query, so we use unencoded query, this caused not support chinese/space (and maybe other char) in query value. org.apache.servicecomb.core.transport.AbstractTransport.genAddressWithoutSchemaForOldSC(AbstractTransport.java:129)
+[2018-09-06 14:35:08,538/CST][main][WARN]address /0.0.0.0:7070, auto select a host address to publish 10.10.28.20:7070, maybe not the correct one org.apache.servicecomb.serviceregistry.RegistryUtils.genPublishIpPort(RegistryUtils.java:183)
+[2018-09-06 14:35:08,549/CST][transport-vert.x-eventloop-thread-8][INFO]highway listen success. address=0.0.0.0:7070 org.apache.servicecomb.transport.highway.HighwayServerVerticle.lambda$startListen$0(HighwayServerVerticle.java:73)
+[2018-09-06 14:35:08,550/CST][main][INFO]endpoint to publish: highway://10.10.28.20:7070?login=true org.apache.servicecomb.core.transport.TransportManager.init(TransportManager.java:58)
+[2018-09-06 14:35:08,554/CST][main][INFO]Found SPI service org.apache.servicecomb.common.rest.codec.produce.ProduceProcessor, count=2. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:76)
+[2018-09-06 14:35:08,554/CST][main][INFO]  0. org.apache.servicecomb.common.rest.codec.produce.ProduceJsonProcessor. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-06 14:35:08,554/CST][main][INFO]  1. org.apache.servicecomb.common.rest.codec.produce.ProduceTextPlainProcessor. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-06 14:35:08,563/CST][main][INFO]add schema to service paths. business:business-service1:checkInformation. org.apache.servicecomb.common.rest.locator.ServicePathManager.addSchema(ServicePathManager.java:91)
+[2018-09-06 14:35:08,564/CST][main][INFO]Swagger mapped "{[/ue-contexts/id/], method=[POST], produces=[application/json]}" onto public abstract com.type.N1N2MessageTransferRspData cse.gen.business.business_service1.checkInformation.checkInformationIntf.check(java.lang.String) org.apache.servicecomb.common.rest.locator.MicroservicePaths.printPath(MicroservicePaths.java:103)
+[2018-09-06 14:35:08,569/CST][main][INFO]running microservice register task. org.apache.servicecomb.serviceregistry.task.MicroserviceRegisterTask.doRegister(MicroserviceRegisterTask.java:75)
+[2018-09-06 14:35:08,576/CST][registry-vert.x-eventloop-thread-0][WARN]get response for org.apache.servicecomb.serviceregistry.api.response.GetExistenceResponse failed, 400:Bad Request, {"errorCode":"400012","errorMessage":"Micro-service does not exist","detail":"service does not exist."}
+ org.apache.servicecomb.serviceregistry.client.http.ServiceRegistryClientImpl.lambda$null$0(ServiceRegistryClientImpl.java:125)
+[2018-09-06 14:35:08,605/CST][main][INFO]Registry Microservice successfully. id=[ff99f7abb19e11e8ac8cb025aa031990] appId=[business], name=[business-service1], version=[1.0.0], schemaIds=[checkInformation], env=[] org.apache.servicecomb.serviceregistry.task.MicroserviceRegisterTask.doRegister(MicroserviceRegisterTask.java:109)
+[2018-09-06 14:35:08,673/CST][main][INFO]schemaId [checkInformation] exists [true], summary exists [false] org.apache.servicecomb.serviceregistry.task.MicroserviceRegisterTask.registerSchema(MicroserviceRegisterTask.java:194)
+[2018-09-06 14:35:08,677/CST][registry-vert.x-eventloop-thread-0][WARN]get response for org.apache.servicecomb.serviceregistry.api.response.GetSchemaResponse failed, 400:Bad Request, {"errorCode":"400016","errorMessage":"Schema does not exist","detail":"Do not have this schema info."}
+ org.apache.servicecomb.serviceregistry.client.http.ServiceRegistryClientImpl.lambda$null$0(ServiceRegistryClientImpl.java:125)
+[2018-09-06 14:35:08,693/CST][main][INFO]register schema ff99f7abb19e11e8ac8cb025aa031990/checkInformation success. org.apache.servicecomb.serviceregistry.client.http.ServiceRegistryClientImpl.registerSchema(ServiceRegistryClientImpl.java:334)
+[2018-09-06 14:35:08,701/CST][main][INFO]read MicroserviceRegisterTask status is FINISHED org.apache.servicecomb.serviceregistry.task.ServiceCenterTask.onRegisterTask(ServiceCenterTask.java:51)
+[2018-09-06 14:35:08,701/CST][main][INFO]running microservice instance register task. org.apache.servicecomb.serviceregistry.task.MicroserviceInstanceRegisterTask.doRegister(MicroserviceInstanceRegisterTask.java:59)
+[2018-09-06 14:35:08,782/CST][main][INFO]Register microservice instance success. microserviceId=ff99f7abb19e11e8ac8cb025aa031990 instanceId=ffa9faf7b19e11e8ac8cb025aa031990 endpoints=[rest://10.10.28.20:8080, highway://10.10.28.20:7070?login=true] lease 120s org.apache.servicecomb.serviceregistry.task.MicroserviceInstanceRegisterTask.doRegister(MicroserviceInstanceRegisterTask.java:77)
+[2018-09-06 14:35:08,784/CST][main][INFO]receive MicroserviceInstanceRegisterTask event, check instance Id... org.apache.servicecomb.core.SCBEngine$1.afterRegistryInstance(SCBEngine.java:152)
+[2018-09-06 14:35:08,785/CST][main][INFO]instance registry succeeds for the first time, will send AFTER_REGISTRY event. org.apache.servicecomb.core.SCBEngine$1.afterRegistryInstance(SCBEngine.java:154)
+[2018-09-06 14:35:08,786/CST][main][INFO]read MicroserviceInstanceRegisterTask status is FINISHED org.apache.servicecomb.serviceregistry.task.ServiceCenterTask.onRegisterTask(ServiceCenterTask.java:51)
+[2018-09-06 14:35:08,849/CST][registry-vert.x-eventloop-thread-2][INFO]watching microservice ff99f7abb19e11e8ac8cb025aa031990 successfully, the chosen service center address is 127.0.0.1:30100 org.apache.servicecomb.serviceregistry.client.http.ServiceRegistryClientImpl.lambda$watch$8(ServiceRegistryClientImpl.java:584)
+[2018-09-06 14:35:38,811/CST][Service Center Task][INFO]sc task interval changed from -1 to 30 org.apache.servicecomb.serviceregistry.task.ServiceCenterTaskMonitor.beginCycle(ServiceCenterTaskMonitor.java:39)
+[2018-09-06 14:35:44,650/CST][transport-vert.x-eventloop-thread-4][INFO]Found SPI service javax.ws.rs.core.Response$StatusType, count=0. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:76)
+[2018-09-06 14:35:44,684/CST][pool-1-thread-1][INFO]Found SPI service org.apache.servicecomb.swagger.invocation.exception.ExceptionToResponseConverter, count=2. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:76)
+[2018-09-06 14:35:44,684/CST][pool-1-thread-1][INFO]  0. org.apache.servicecomb.swagger.invocation.exception.InvocationExceptionToResponseConverter. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-06 14:35:44,684/CST][pool-1-thread-1][INFO]  1. org.apache.servicecomb.swagger.invocation.exception.DefaultExceptionToResponseConverter. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-07 09:14:17,682/CST][main][ERROR]Can not output merged.log4j.properties,because can not write to directory of file file:/D:/Apache/maven-repository/org/apache/servicecomb/foundation-common/1.0.0/foundation-common-1.0.0.jar!/config/base/log4j.properties org.apache.servicecomb.foundation.common.utils.Log4jUtils.outputFile(Log4jUtils.java:103)
+[2018-09-07 09:14:17,742/CST][main][INFO]Found main class "com.Application". org.apache.servicecomb.foundation.common.utils.JvmUtils.findMainClass(JvmUtils.java:62)
+[2018-09-07 09:14:17,859/CST][main][INFO]Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@59a6e353: startup date [Fri Sep 07 09:14:17 CST 2018]; root of context hierarchy org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:583)
+[2018-09-07 09:14:18,100/CST][main][INFO]Loading XML bean definitions from file [D:\组里任务\new\mmmmmmm\N1N2MessageTransferProvider\target\classes\META-INF\spring\provider.bean.xml] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+[2018-09-07 09:14:21,051/CST][main][INFO]Loading XML bean definitions from URL [jar:file:/D:/Apache/maven-repository/org/apache/servicecomb/java-chassis-core/1.0.0/java-chassis-core-1.0.0.jar!/META-INF/spring/cse.bean.xml] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+[2018-09-07 09:14:22,535/CST][main][INFO]Loading XML bean definitions from URL [jar:file:/D:/Apache/maven-repository/org/apache/servicecomb/foundation-config/1.0.0/foundation-config-1.0.0.jar!/META-INF/spring/cse.bean.xml] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+[2018-09-07 09:14:22,550/CST][main][INFO]Loading XML bean definitions from URL [jar:file:/D:/Apache/maven-repository/org/apache/servicecomb/foundation-vertx/1.0.0/foundation-vertx-1.0.0.jar!/META-INF/spring/cse.bean.xml] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+[2018-09-07 09:14:22,574/CST][main][INFO]Loading XML bean definitions from URL [jar:file:/D:/Apache/maven-repository/org/apache/servicecomb/foundation-common/1.0.0/foundation-common-1.0.0.jar!/META-INF/spring/common.bean.xml] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+[2018-09-07 09:14:22,931/CST][main][INFO]Environment received, will get configurations from [org.springframework.core.env.StandardEnvironment@1634572909]. org.apache.servicecomb.config.ConfigurationSpringInitializer.setEnvironment(ConfigurationSpringInitializer.java:59)
+[2018-09-07 09:14:22,955/CST][main][WARN]No URLs will be polled as dynamic configuration sources. com.netflix.config.sources.URLConfigurationSource.<init>(URLConfigurationSource.java:121)
+[2018-09-07 09:14:22,955/CST][main][INFO]To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath. com.netflix.config.sources.URLConfigurationSource.<init>(URLConfigurationSource.java:122)
+[2018-09-07 09:14:23,037/CST][main][INFO]create local config: org.apache.servicecomb.config.ConfigUtil.createLocalConfig(ConfigUtil.java:114)
+[2018-09-07 09:14:23,037/CST][main][INFO] jar:file:/D:/Apache/maven-repository/org/apache/servicecomb/java-chassis-core/1.0.0/java-chassis-core-1.0.0.jar!/microservice.yaml. org.apache.servicecomb.config.ConfigUtil.createLocalConfig(ConfigUtil.java:116)
+[2018-09-07 09:14:23,037/CST][main][INFO] file:/D:/%e7%bb%84%e9%87%8c%e4%bb%bb%e5%8a%a1/new/mmmmmmm/N1N2MessageTransferProvider/target/classes/microservice.yaml. org.apache.servicecomb.config.ConfigUtil.createLocalConfig(ConfigUtil.java:116)
+[2018-09-07 09:14:23,069/CST][main][INFO]Found SPI service org.apache.servicecomb.config.spi.ConfigCenterConfigurationSource, count=0. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:76)
+[2018-09-07 09:14:23,069/CST][main][INFO]Can not find SPI service for org.apache.servicecomb.config.spi.ConfigCenterConfigurationSource org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.getTargetService(SPIServiceUtils.java:107)
+[2018-09-07 09:14:23,069/CST][main][INFO]config center SPI service can not find, skip to load configuration from config center org.apache.servicecomb.config.ConfigUtil.createConfigCenterConfigurationSource(ConfigUtil.java:207)
+[2018-09-07 09:14:23,356/CST][main][INFO]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:155)
+[2018-09-07 09:14:24,361/CST][main][INFO]Found SPI service org.apache.servicecomb.swagger.generator.core.CommonParameterTypeProcessor, count=3. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:76)
+[2018-09-07 09:14:24,361/CST][main][INFO]  0. org.apache.servicecomb.swagger.invocation.generator.InvocationContextProcessor. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-07 09:14:24,361/CST][main][INFO]  1. org.apache.servicecomb.swagger.generator.springmvc.processor.parameter.MultipartFileTypeProcessor. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-07 09:14:24,361/CST][main][INFO]  2. org.apache.servicecomb.swagger.generator.core.processor.parametertype.HttpServletRequestProcessor. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-07 09:14:24,377/CST][main][INFO]Found SPI service org.apache.servicecomb.swagger.generator.core.ResponseTypeProcessor, count=2. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:76)
+[2018-09-07 09:14:24,377/CST][main][INFO]  0. org.apache.servicecomb.swagger.generator.springmvc.processor.response.ResponseEntityProcessor. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-07 09:14:24,377/CST][main][INFO]  1. org.apache.servicecomb.swagger.generator.core.processor.response.CompletableFutureProcessor. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-07 09:14:24,393/CST][main][INFO]Found SPI service org.apache.servicecomb.swagger.generator.core.SwaggerGeneratorContext, count=2. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:76)
+[2018-09-07 09:14:24,393/CST][main][INFO]  0. org.apache.servicecomb.swagger.generator.springmvc.SpringmvcSwaggerGeneratorContext. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-07 09:14:24,393/CST][main][INFO]  1. org.apache.servicecomb.swagger.generator.pojo.PojoSwaggerGeneratorContext. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-07 09:14:24,446/CST][main][INFO]Found SPI service org.apache.servicecomb.swagger.invocation.response.producer.ProducerResponseMapperFactory, count=4. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:76)
+[2018-09-07 09:14:24,446/CST][main][INFO]  0. org.apache.servicecomb.swagger.invocation.response.producer.CseResponseProducerResponseMapperFactory. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-07 09:14:24,446/CST][main][INFO]  1. org.apache.servicecomb.swagger.invocation.response.producer.CompletableFutureProducerResponseMapperFactory. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-07 09:14:24,446/CST][main][INFO]  2. org.apache.servicecomb.swagger.invocation.springmvc.response.SpringmvcProducerResponseMapperFactory. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-07 09:14:24,446/CST][main][INFO]  3. org.apache.servicecomb.swagger.invocation.response.producer.DefaultProducerResponseMapperFactory. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-07 09:14:24,446/CST][main][INFO]Found SPI service org.apache.servicecomb.swagger.invocation.response.consumer.ConsumerResponseMapperFactory, count=4. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:76)
+[2018-09-07 09:14:24,446/CST][main][INFO]  0. org.apache.servicecomb.swagger.invocation.response.consumer.CseResponseConsumerResponseMapperFactory. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-07 09:14:24,446/CST][main][INFO]  1. org.apache.servicecomb.swagger.invocation.response.consumer.CompletableFutureConsumerResponseMapperFactory. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-07 09:14:24,446/CST][main][INFO]  2. org.apache.servicecomb.swagger.invocation.springmvc.response.SpringmvcConsumerResponseMapperFactory. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-07 09:14:24,446/CST][main][INFO]  3. org.apache.servicecomb.swagger.invocation.response.consumer.DefaultConsumerResponseMapperFactory. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-07 09:14:24,509/CST][main][INFO]load microservice config, name=business-service1, paths=[jar:file:/D:/Apache/maven-repository/org/apache/servicecomb/java-chassis-core/1.0.0/java-chassis-core-1.0.0.jar!/microservice.yaml, file:/D:/%e7%bb%84%e9%87%8c%e4%bb%bb%e5%8a%a1/new/mmmmmmm/N1N2MessageTransferProvider/target/classes/microservice.yaml] org.apache.servicecomb.serviceregistry.definition.MicroserviceDefinition.logConfigPath(MicroserviceDefinition.java:142)
+[2018-09-07 09:14:24,626/CST][main][INFO]It is running in the normal mode, a separated service registry is required org.apache.servicecomb.serviceregistry.registry.ServiceRegistryFactory.create(ServiceRegistryFactory.java:81)
+[2018-09-07 09:14:24,684/CST][main][INFO]Found SPI service org.apache.servicecomb.serviceregistry.registry.ServiceRegistryTaskInitializer, count=1. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:76)
+[2018-09-07 09:14:24,686/CST][main][INFO]  0. org.apache.servicecomb.serviceregistry.diagnosis.instance.InstanceCacheCheckTask. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-07 09:14:24,696/CST][main][INFO]microserviceVersionFactory is org.apache.servicecomb.core.definition.PrivateMicroserviceVersionMetaFactory. org.apache.servicecomb.serviceregistry.registry.AbstractServiceRegistry.initAppManager(AbstractServiceRegistry.java:125)
+[2018-09-07 09:14:24,985/CST][main][INFO]add network interface name:eth0,host address:192.168.220.1 org.apache.servicecomb.foundation.common.net.NetUtils.doGetIpv4AddressFromNetworkInterface(NetUtils.java:118)
+[2018-09-07 09:14:25,017/CST][main][INFO]add network interface name:eth3,host address:10.10.28.20 org.apache.servicecomb.foundation.common.net.NetUtils.doGetIpv4AddressFromNetworkInterface(NetUtils.java:118)
+[2018-09-07 09:14:25,025/CST][main][INFO]add network interface name:eth4,host address:192.168.177.1 org.apache.servicecomb.foundation.common.net.NetUtils.doGetIpv4AddressFromNetworkInterface(NetUtils.java:118)
+[2018-09-07 09:14:25,220/CST][main][INFO]add host name from localhost:DESKTOP-RVBA5DD,host address:10.10.28.20 org.apache.servicecomb.foundation.common.net.NetUtils.doGetHostNameAndHostAddress(NetUtils.java:76)
+[2018-09-07 09:14:28,310/CST][main][INFO]executor group 2, thread per group 8. org.apache.servicecomb.core.executor.FixedThreadExecutor.<init>(FixedThreadExecutor.java:56)
+[2018-09-07 09:14:28,650/CST][main][INFO]Found SPI service org.apache.servicecomb.swagger.extend.property.creator.PropertyCreator, count=1. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:76)
+[2018-09-07 09:14:28,651/CST][main][INFO]  0. org.apache.servicecomb.swagger.extend.property.creator.springmvc.MultipartFilePropertyCreator. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-07 09:14:28,829/CST][main][INFO]generate swagger for business/business-service1/checkInformation, swagger: ---
+swagger: "2.0"
+info:
+  version: "1.0.0"
+  title: "swagger definition for com.checkInformation"
+  x-java-interface: "cse.gen.business.business_service1.checkInformation.checkInformationIntf"
+basePath: "/"
+consumes:
+- "application/json"
+produces:
+- "application/json"
+paths:
+  /ue-contexts/id:
+    post:
+      operationId: "check"
+      parameters:
+      - name: "n1_n2_messages"
+        in: "query"
+        required: false
+        type: "string"
+      responses:
+        200:
+          description: "initial success"
+          schema:
+            $ref: "#/definitions/N1N2MessageTransferRspData"
+        202:
+          description: "messsage accept"
+          schema:
+            $ref: "#/definitions/N1N2MessageTransferRspData"
+        307:
+          description: "temporary redirect"
+          schema:
+            $ref: "#/definitions/MultiResponse300"
+        404:
+          description: "Not Found"
+          schema:
+            $ref: "#/definitions/MultiResponse400"
+        409:
+          description: "Confilct"
+          schema:
+            $ref: "#/definitions/MultiResponse400"
+        504:
+          description: "GateWay Time out"
+          schema:
+            $ref: "#/definitions/MultiResponse500"
+definitions:
+  N1N2MessageTransferRspData:
+    type: "object"
+    properties:
+      cause:
+        type: "string"
+        enum:
+        - "ATTEMPTING_TO_REACH_UE"
+        - "N1_N2_TRANSFER_INITIATED"
+        - "WAITING_FOR_ASYNCHRONOUS_TRANSFER"
+        x-java-class: "com.type.N1N2MessageTransferCause"
+      supportedFeatures:
+        type: "string"
+    x-java-class: "com.type.N1N2MessageTransferRspData"
+  MultiResponse300:
+    type: "object"
+    properties:
+      message:
+        type: "string"
+      code:
+        type: "integer"
+        format: "int32"
+    x-java-class: "com.Response.MultiResponse300"
+  MultiResponse400:
+    type: "object"
+    properties:
+      code:
+        type: "integer"
+        format: "int32"
+      message:
+        type: "string"
+    x-java-class: "com.Response.MultiResponse400"
+  MultiResponse500:
+    type: "object"
+    properties:
+      message:
+        type: "string"
+      code:
+        type: "integer"
+        format: "int32"
+    x-java-class: "com.Response.MultiResponse500"
+ org.apache.servicecomb.core.definition.schema.ProducerSchemaFactory.createSchema(ProducerSchemaFactory.java:125)
+[2018-09-07 09:14:28,829/CST][main][INFO]register schema business/business-service1/checkInformation org.apache.servicecomb.core.definition.loader.SchemaLoader.registerSchema(SchemaLoader.java:93)
+[2018-09-07 09:14:29,280/CST][main][INFO]create CtClass cse.gen.business.business_service1.checkInformation.checkInformationIntf in classLoader sun.misc.Launcher$AppClassLoader@18b4aac2. org.apache.servicecomb.common.javassist.JavassistUtils.createCtClass(JavassistUtils.java:185)
+[2018-09-07 09:14:29,281/CST][main][INFO]create class cse.gen.business.business_service1.checkInformation.checkInformationIntf in classLoader sun.misc.Launcher$AppClassLoader@18b4aac2. org.apache.servicecomb.common.javassist.JavassistUtils.createClass(JavassistUtils.java:217)
+[2018-09-07 09:14:29,286/CST][main][INFO]Found SPI service org.apache.servicecomb.serviceregistry.discovery.DiscoveryFilter, count=1. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:76)
+[2018-09-07 09:14:29,286/CST][main][INFO]  0. org.apache.servicecomb.core.filter.OperationInstancesDiscoveryFilter. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-07 09:14:29,288/CST][main][INFO]DiscoveryFilter org.apache.servicecomb.core.filter.OperationInstancesDiscoveryFilter, enabled true. org.apache.servicecomb.serviceregistry.discovery.DiscoveryTree.sort(DiscoveryTree.java:104)
+[2018-09-07 09:14:29,288/CST][main][INFO]DiscoveryFilter org.apache.servicecomb.core.filter.EndpointDiscoveryFilter, enabled true. org.apache.servicecomb.serviceregistry.discovery.DiscoveryTree.sort(DiscoveryTree.java:104)
+[2018-09-07 09:14:29,310/CST][main][WARN]Bad practice, low performance, convert from ? to class com.type.N1N2MessageTransferRspData org.apache.servicecomb.swagger.invocation.converter.ConverterMgr.findConverter(ConverterMgr.java:98)
+[2018-09-07 09:14:29,312/CST][main][INFO]Found SPI service org.apache.servicecomb.swagger.invocation.extension.ProducerInvokeExtension, count=0. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:76)
+[2018-09-07 09:14:29,335/CST][main][WARN]address /0.0.0.0:8080, auto select a host address to publish 10.10.28.20:8080, maybe not the correct one org.apache.servicecomb.serviceregistry.RegistryUtils.genPublishIpPort(RegistryUtils.java:183)
+[2018-09-07 09:14:29,357/CST][main][INFO]choose org.apache.servicecomb.transport.rest.vertx.VertxRestTransport for rest. org.apache.servicecomb.core.transport.TransportManager.chooseOneTransport(TransportManager.java:84)
+[2018-09-07 09:14:29,358/CST][main][INFO]choose org.apache.servicecomb.transport.highway.HighwayTransport for highway. org.apache.servicecomb.core.transport.TransportManager.chooseOneTransport(TransportManager.java:84)
+[2018-09-07 09:14:29,363/CST][main][INFO]Found SPI service org.apache.servicecomb.common.rest.filter.HttpClientFilter, count=3. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:76)
+[2018-09-07 09:14:29,364/CST][main][INFO]  0. org.apache.servicecomb.provider.springmvc.reference.RestTemplateCopyHeaderFilter. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-07 09:14:29,364/CST][main][INFO]  1. org.apache.servicecomb.common.rest.filter.inner.ClientRestArgsFilter. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-07 09:14:29,364/CST][main][INFO]  2. org.apache.servicecomb.transport.rest.client.http.DefaultHttpClientFilter. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-07 09:14:29,367/CST][main][WARN]keyStore [server.p12] file not exist, please check! org.apache.servicecomb.foundation.vertx.VertxTLSBuilder.buildTCPSSLOptions(VertxTLSBuilder.java:116)
+[2018-09-07 09:14:29,368/CST][main][WARN]trustStore [trust.jks] file not exist, please check! org.apache.servicecomb.foundation.vertx.VertxTLSBuilder.buildTCPSSLOptions(VertxTLSBuilder.java:136)
+[2018-09-07 09:14:29,373/CST][main][WARN]keyStore [server.p12] file not exist, please check! org.apache.servicecomb.foundation.vertx.VertxTLSBuilder.buildTCPSSLOptions(VertxTLSBuilder.java:116)
+[2018-09-07 09:14:29,374/CST][main][WARN]trustStore [trust.jks] file not exist, please check! org.apache.servicecomb.foundation.vertx.VertxTLSBuilder.buildTCPSSLOptions(VertxTLSBuilder.java:136)
+[2018-09-07 09:14:30,511/CST][transport-vert.x-eventloop-thread-4][INFO]Found SPI service org.apache.servicecomb.common.rest.filter.HttpServerFilter, count=2. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:76)
+[2018-09-07 09:14:30,512/CST][transport-vert.x-eventloop-thread-4][INFO]  0. org.apache.servicecomb.common.rest.filter.inner.ServerRestArgsFilter. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-07 09:14:30,512/CST][transport-vert.x-eventloop-thread-4][INFO]  1. org.apache.servicecomb.common.rest.filter.tracing.TracingFilter. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-07 09:14:30,513/CST][transport-vert.x-eventloop-thread-4][INFO]Found SPI service org.apache.servicecomb.transport.rest.vertx.VertxHttpDispatcher, count=1. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:76)
+[2018-09-07 09:14:30,514/CST][transport-vert.x-eventloop-thread-4][INFO]  0. org.apache.servicecomb.transport.rest.vertx.VertxRestDispatcher. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-07 09:14:30,517/CST][transport-vert.x-eventloop-thread-4][INFO]servicecomb.uploads.directory is null, not support upload. org.apache.servicecomb.common.rest.UploadConfig.toMultipartConfigElement(UploadConfig.java:92)
+[2018-09-07 09:14:30,554/CST][transport-vert.x-eventloop-thread-4][INFO]rest listen success. address=0.0.0.0:8080 org.apache.servicecomb.transport.rest.vertx.RestServerVerticle.lambda$startListen$0(RestServerVerticle.java:143)
+[2018-09-07 09:14:30,555/CST][main][INFO]endpoint to publish: rest://10.10.28.20:8080 org.apache.servicecomb.core.transport.TransportManager.init(TransportManager.java:58)
+[2018-09-07 09:14:30,556/CST][main][WARN]keyStore [server.p12] file not exist, please check! org.apache.servicecomb.foundation.vertx.VertxTLSBuilder.buildTCPSSLOptions(VertxTLSBuilder.java:116)
+[2018-09-07 09:14:30,556/CST][main][WARN]trustStore [trust.jks] file not exist, please check! org.apache.servicecomb.foundation.vertx.VertxTLSBuilder.buildTCPSSLOptions(VertxTLSBuilder.java:136)
+[2018-09-07 09:14:30,556/CST][main][WARN]keyStore [server.p12] file not exist, please check! org.apache.servicecomb.foundation.vertx.VertxTLSBuilder.buildTCPSSLOptions(VertxTLSBuilder.java:116)
+[2018-09-07 09:14:30,557/CST][main][WARN]trustStore [trust.jks] file not exist, please check! org.apache.servicecomb.foundation.vertx.VertxTLSBuilder.buildTCPSSLOptions(VertxTLSBuilder.java:136)
+[2018-09-07 09:14:30,570/CST][main][WARN]Service center do not support encoded query, so we use unencoded query, this caused not support chinese/space (and maybe other char) in query value. org.apache.servicecomb.core.transport.AbstractTransport.genAddressWithoutSchemaForOldSC(AbstractTransport.java:129)
+[2018-09-07 09:14:30,573/CST][main][WARN]address /0.0.0.0:7070, auto select a host address to publish 10.10.28.20:7070, maybe not the correct one org.apache.servicecomb.serviceregistry.RegistryUtils.genPublishIpPort(RegistryUtils.java:183)
+[2018-09-07 09:14:30,582/CST][transport-vert.x-eventloop-thread-8][INFO]highway listen success. address=0.0.0.0:7070 org.apache.servicecomb.transport.highway.HighwayServerVerticle.lambda$startListen$0(HighwayServerVerticle.java:73)
+[2018-09-07 09:14:30,583/CST][main][INFO]endpoint to publish: highway://10.10.28.20:7070?login=true org.apache.servicecomb.core.transport.TransportManager.init(TransportManager.java:58)
+[2018-09-07 09:14:30,586/CST][main][INFO]Found SPI service org.apache.servicecomb.common.rest.codec.produce.ProduceProcessor, count=2. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:76)
+[2018-09-07 09:14:30,586/CST][main][INFO]  0. org.apache.servicecomb.common.rest.codec.produce.ProduceJsonProcessor. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-07 09:14:30,587/CST][main][INFO]  1. org.apache.servicecomb.common.rest.codec.produce.ProduceTextPlainProcessor. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-09-07 09:14:30,598/CST][main][INFO]add schema to service paths. business:business-service1:checkInformation. org.apache.servicecomb.common.rest.locator.ServicePathManager.addSchema(ServicePathManager.java:91)
+[2018-09-07 09:14:30,599/CST][main][INFO]Swagger mapped "{[/ue-contexts/id/], method=[POST], produces=[application/json]}" onto public abstract com.type.N1N2MessageTransferRspData cse.gen.business.business_service1.checkInformation.checkInformationIntf.check(java.lang.String) org.apache.servicecomb.common.rest.locator.MicroservicePaths.printPath(MicroservicePaths.java:103)
+[2018-09-07 09:14:30,603/CST][main][INFO]running microservice register task. org.apache.servicecomb.serviceregistry.task.MicroserviceRegisterTask.doRegister(MicroserviceRegisterTask.java:75)
+[2018-09-07 09:14:30,633/CST][main][INFO]Microservice exists in service center, no need to register. id=[ff99f7abb19e11e8ac8cb025aa031990] appId=[business], name=[business-service1], version=[1.0.0], env=[] org.apache.servicecomb.serviceregistry.task.MicroserviceRegisterTask.doRegister(MicroserviceRegisterTask.java:83)
+[2018-09-07 09:14:30,657/CST][main][INFO]SchemaIds are equals to service center. serviceId=[ff99f7abb19e11e8ac8cb025aa031990], appId=[business], name=[business-service1], version=[1.0.0], env=[], schemaIds=[checkInformation] org.apache.servicecomb.serviceregistry.task.MicroserviceRegisterTask.checkSchemaIdSet(MicroserviceRegisterTask.java:149)
+[2018-09-07 09:14:30,673/CST][main][INFO]schemaId [checkInformation] exists [true], summary exists [true] org.apache.servicecomb.serviceregistry.task.MicroserviceRegisterTask.registerSchema(MicroserviceRegisterTask.java:194)
+[2018-09-07 09:14:30,681/CST][main][INFO]read MicroserviceRegisterTask status is FINISHED org.apache.servicecomb.serviceregistry.task.ServiceCenterTask.onRegisterTask(ServiceCenterTask.java:51)
+[2018-09-07 09:14:30,682/CST][main][INFO]running microservice instance register task. org.apache.servicecomb.serviceregistry.task.MicroserviceInstanceRegisterTask.doRegister(MicroserviceInstanceRegisterTask.java:59)
+[2018-09-07 09:14:30,781/CST][main][INFO]Register microservice instance success. microserviceId=ff99f7abb19e11e8ac8cb025aa031990 instanceId=5f56bf25b23b11e8966bb025aa031990 endpoints=[rest://10.10.28.20:8080, highway://10.10.28.20:7070?login=true] lease 120s org.apache.servicecomb.serviceregistry.task.MicroserviceInstanceRegisterTask.doRegister(MicroserviceInstanceRegisterTask.java:77)
+[2018-09-07 09:14:30,784/CST][main][INFO]receive MicroserviceInstanceRegisterTask event, check instance Id... org.apache.servicecomb.core.SCBEngine$1.afterRegistryInstance(SCBEngine.java:152)
+[2018-09-07 09:14:30,786/CST][main][INFO]instance registry succeeds for the first time, will send AFTER_REGISTRY event. org.apache.servicecomb.core.SCBEngine$1.afterRegistryInstance(SCBEngine.java:154)
+[2018-09-07 09:14:30,787/CST][main][INFO]read MicroserviceInstanceRegisterTask status is FINISHED org.apache.servicecomb.serviceregistry.task.ServiceCenterTask.onRegisterTask(ServiceCenterTask.java:51)
+[2018-09-07 09:14:31,031/CST][registry-vert.x-eventloop-thread-2][INFO]watching microservice ff99f7abb19e11e8ac8cb025aa031990 successfully, the chosen service center address is 127.0.0.1:30100 org.apache.servicecomb.serviceregistry.client.http.ServiceRegistryClientImpl.lambda$watch$8(ServiceRegistryClientImpl.java:584)
+[2018-09-07 09:15:00,806/CST][Service Center Task][INFO]sc task interval changed from -1 to 30 org.apache.servicecomb.serviceregistry.task.ServiceCenterTaskMonitor.beginCycle(ServiceCenterTaskMonitor.java:39)
